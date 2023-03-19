@@ -26,12 +26,12 @@ input[type=number]::-webkit-outer-spin-button {
 :root {
   --background-color: black;
 }
-img {
+.grayscale {
   filter: grayscale(100%); 
   transition: filter 1s ease-in-out; 
 }
 
-img:hover {
+.grayscale:hover {
   filter: grayscale(0%); 
 }
 
@@ -86,3 +86,35 @@ img:hover {
   width: 80px;
   height: 670px;
 }
+
+
+/*Lineas con animacion */
+.linea {
+  position: relative;
+  height: 1.8px;
+  overflow: hidden;
+}
+
+.linea::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background-color: #94856F;
+  animation: rellenar 5s linear forwards;
+  animation-delay: 4s;
+}
+
+@keyframes rellenar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+

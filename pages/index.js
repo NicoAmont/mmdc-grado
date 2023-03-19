@@ -31,20 +31,19 @@ export default function Home() {
                   </div>
                 </Link>
             </div>
-            
-            <div className='absolute flex flex-row items-baseline top-1/2 left-1/3 transform -translate-y-1/2 bottom-0 w-auto h-96 filter-none'>
-              <div className='w-full h-full relative filter-none'>
-              <p className='absolute w-96 top-0 -left-48 font-body text-xl text-bgr2 font-extralight tracking-widest -rotate-90 z-10 filter-none '>María Mónica Díez Cruz</p>
+            <div className='absolute z-10 hover:filter-none flex flex-row items-baseline top-1/2 left-1/3 transform -translate-y-1/2 -translate-x-20 bottom-0 w-auto h-96 filter-none'>
+              <div className='w-full h-full relative hover:filter-none '>
+              <p className='absolute hover:filter-none w-96 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest -rotate-90 z-10 filter-none '>María Mónica Díez Cruz</p>
               </div>
-              <img className='transform -translate-y-36 scale-90 filter-none'  src="/fotobanner1.png"/>
+              <img className='transform -translate-y-36 scale-90 filter-none  '  src="/fotobanner1.png"/>
             </div>
-            <div className='animate-slide-left top-1/4 left-0 absolute border-gold border-r-4 border-t-4'>
-              <img className='h-full'  src="/izqbanner.png" />
+            <div className='animate-slide-left top-1/3 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
+              <img className='h-full grayscale'  src="/izqbanner.png" />
             </div>
-            <div className='animate-slide-right top-1/4 right-0 absolute border-gold border-l-4 border-t-4'>
-              <img className='h-full'  src="/derbanner.png" />
+            <div className='animate-slide-right top-1/4 right-0 absolute z-10 border-gold border-l-4 border-t-4'>
+              <img className='h-full grayscale  '  src="/derbanner.png" />
             </div>
-              
+            <div className='linea z-0  top-1/3 left-1/2 w-1/2  right-0'></div>
             
           </div>
         </div>
