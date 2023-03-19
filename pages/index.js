@@ -56,12 +56,12 @@ export default function Home() {
         </div>
       </div>
       <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
-      <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-0 mt-10 w-2/3 rotate-90 '></div>
+      <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-40 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
       {/**segundo banner **/}
       <div className='w-auto h-auto bg-bgr2 flex justify-center'>
-        <div className='relative max-w-7xl maxH w-screen flex  flex-col justify-center items-center'>
+        <div className='relative max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
           <div className='w-11/12 h-screen '>
-            <div className=" flex  2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-center">
+            <div className=" flex  2xl:flex-row items-center  text-base w-full h-auto xl:mt-10  justify-center">
                 {/* Left */}
                 <Link  href="/" passHref>
                   <div className="grid place-content-start  ml-3">
