@@ -14,7 +14,27 @@
     padding: 0;
     box-sizing: inherit;
 }
-
+*::-webkit-scrollbar {
+  width: 0px;     /* Tamaño del scroll en vertical */
+  height: 0px;    /* Tamaño del scroll en horizontal */
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
 :root {
   --background-color: black;
+}
+img {
+  filter: grayscale(100%); /* desaturación al inicio */
+  transition: filter 1s ease-in-out; /* transición suave al cambiar el filtro */
+}
+
+img:hover {
+  filter: grayscale(0%); /* saturación normal al pasar el mouse encima */
+}
+
+.scale-banner{
+  scale: 90%;
 }
