@@ -76,7 +76,7 @@ input[type=number]::-webkit-outer-spin-button {
     position: absolute;
   }
 
-/*Ajustes fondos para imagenes*/
+/*Ajustes para imagenes*/
 
 .bannerder{
   width: 169px;
@@ -86,7 +86,9 @@ input[type=number]::-webkit-outer-spin-button {
   width: 80px;
   height: 670px;
 }
-
+.banner2derH{
+  height: 450px;
+}
 
 /*Lineas con animacion BANNER*/
 .linea {
