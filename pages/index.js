@@ -12,7 +12,7 @@ export default function Home() {
       <main className="w-screen h-auto bg-bgr flex justify-center">
         <div className='relative max-w-7xl w-screen flex  flex-col justify-center items-center'>
           <div className='w-11/12 h-screen'>
-            <div className="bg-bgr flex  2xl:flex-row items-center  text-base w-full h-16  justify-between">
+            <div className="bg-bgr flex  2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-between">
                 {/* Left */}
                 <Link  href="/" passHref>
                   <div className="grid place-content-start  ml-3">
@@ -32,9 +32,11 @@ export default function Home() {
                 </Link>
             </div>
             
-            <div className=''>
-              <p className='absolute w-80 top-1/2 left-1/3 transform -translate-y-1/4 bottom-0 font-body text-xl text-bgr2 font-extralight tracking-widest -rotate-90'>María Mónica Díez Cruz</p>
-              <img className='absolute w-80 top-1/2 left-1/3 transform -translate-y-1/2 bottom-0 filter-none'  src="/fotobanner1.png"/>
+            <div className='absolute flex flex-row items-baseline top-1/2 left-1/3 transform -translate-y-1/2 bottom-0 w-auto h-96 filter-none'>
+              <div className='w-full h-full relative filter-none'>
+              <p className='absolute w-96 top-0 -left-48 font-body text-xl text-bgr2 font-extralight tracking-widest -rotate-90 z-10 filter-none '>María Mónica Díez Cruz</p>
+              </div>
+              <img className='transform -translate-y-36 scale-90 filter-none'  src="/fotobanner1.png"/>
             </div>
             <div className='animate-slide-left top-1/4 left-0 absolute border-gold border-r-4 border-t-4'>
               <img className='h-full'  src="/izqbanner.png" />
