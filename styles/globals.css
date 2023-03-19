@@ -88,13 +88,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-/*Lineas con animacion */
+/*Lineas con animacion BANNER*/
 .linea {
   position: relative;
   height: 1.8px;
   overflow: hidden;
 }
-
 .linea::before {
   content: "";
   display: block;
@@ -102,10 +101,9 @@ input[type=number]::-webkit-outer-spin-button {
   height: 100%;
   width: 0%;
   background-color: #94856F;
-  animation: rellenar 5s linear forwards;
-  animation-delay: 4s;
+  animation: rellenar 4s linear forwards;
+  animation-delay: 2s;
 }
-
 @keyframes rellenar {
   0% {
     width: 0%;
@@ -114,7 +112,29 @@ input[type=number]::-webkit-outer-spin-button {
     width: 100%;
   }
 }
-
-
-
+  /*animacion linea de derecha a izquierda*/
+  .lineaD {
+    position: relative;
+    height: 1.8px;
+    overflow: hidden;
+  }
+  .lineaD::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    right: 0;
+    background-color: #94856F;
+    animation: rellenarD 4s linear forwards;
+    animation-delay: 2s;
+  } 
+  @keyframes rellenarD {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
 

@@ -43,7 +43,14 @@ export default function Home() {
             <div className='animate-slide-right top-1/4 right-0 absolute z-10 border-gold border-l-4 border-t-4'>
               <img className='h-full grayscale  '  src="/derbanner.png" />
             </div>
-            <div className='linea z-0  top-1/3 left-1/2 w-1/2  right-0'></div>
+            <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-36 translate-y-28  z-10 '>
+              <p className=' hover:filter-none w-28 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Participación</p>
+              <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-5xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
+              <p className=' hover:filter-none w-96 top-0 -left-48 font-heads ml-1 text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Msc moda, diseño y gestión de lujo</p>
+            </div>
+            <div className='linea z-0  top-1/3 left-1/2 w-1/2'></div>
+            <div className='lineaD z-0  top-1/3 left-0 mt-10 w-1/3  '></div>
+
             
           </div>
         </div>
