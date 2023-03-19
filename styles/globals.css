@@ -27,14 +27,58 @@ input[type=number]::-webkit-outer-spin-button {
   --background-color: black;
 }
 img {
-  filter: grayscale(100%); /* desaturación al inicio */
-  transition: filter 1s ease-in-out; /* transición suave al cambiar el filtro */
+  filter: grayscale(100%); 
+  transition: filter 1s ease-in-out; 
 }
 
 img:hover {
-  filter: grayscale(0%); /* saturación normal al pasar el mouse encima */
+  filter: grayscale(0%); 
 }
 
 .scale-banner{
   scale: 90%;
+}
+
+/**Animaci{on de imagenes**/
+  @keyframes slide-left {
+    from {
+      transform: translateX(-100%);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-left {
+    animation-name: slide-left;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+  }
+
+  @keyframes slide-right {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-right {
+    animation-name: slide-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+  }
+
+/*Ajustes fondos para imagenes*/
+
+.bannerder{
+  width: 169px;
+  height: 332px;
 }

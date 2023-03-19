@@ -32,15 +32,15 @@ export default function Home() {
                 </Link>
             </div>
             
-                  <div>
-                  <img className='absolute w-80 top-1/2 left-1/3 transform -translate-y-1/2 bottom-0 '  src="/fotobanner1.png"/>
-
-                  </div>
-              
-            
-            
-            <img className='top-52 left-16 absolute'  src="/izqbanner.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
-            <img className='top-32 right-16 absolute'  src="/derbanner.png" layout='fill' objectFit='cover' objectPosition='center' alt="" />
+            <div>
+              <img className='absolute w-80 top-1/2 left-1/3 transform -translate-y-1/2 bottom-0 filter-none'  src="/fotobanner1.png"/>
+            </div>
+            <div className='animate-slide-left bottom-28 left-16 absolute border-gold border-r-4 border-t-4'>
+              <img className='w-full'  src="/izqbanner.png" />
+            </div>
+            <div className='animate-slide-right top-32 right-16 absolute border-gold border-l-4 border-t-4'>
+              <img className='h-full'  src="/derbanner.png" />
+            </div>
               
             
           </div>
