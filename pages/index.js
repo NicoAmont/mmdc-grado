@@ -56,10 +56,11 @@ export default function Home() {
         </div>
       </div>
       <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
+      <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-0 mt-10 w-2/3 rotate-90 '></div>
       {/**segundo banner **/}
       <div className='w-auto h-auto bg-bgr2 flex justify-center'>
         <div className='relative max-w-7xl maxH w-screen flex  flex-col justify-center items-center'>
-          <div className='w-11/12 h-screen'>
+          <div className='w-11/12 h-screen '>
             <div className=" flex  2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-center">
                 {/* Left */}
                 <Link  href="/" passHref>
@@ -74,9 +75,11 @@ export default function Home() {
                 </Link>
                
             </div>
-            <div className='absolute z-10 hover:filter-none flex flex-row items-baseline top-1/2 left-1/3 transform -translate-y-1/2 -translate-x-20 bottom-0 w-auto h-96 filter-none'>
+            <div className='absolute z-10 hover:filter-none flex flex-row top-24 left-1/4 transform -translate-y-0 -translate-x-1/4 bottom-0 w-auto h-96 filter-none'>
               <div className='w-full h-full relative hover:filter-none '>
-              <p className='absolute hover:filter-none w-96 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest -rotate-90 z-10 filter-none '>María Mónica Díez Cruz</p>
+                <p className=' hover:filter-none w-auto top-0  font-heads text-6xl text-gold font-extralight z-10 filter-none mb-3'>Celebremos juntos</p>
+                <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Para mi y mi familia es un honor contar contigo este día tan especial, agradezco de la manera que puedas tu compañía.</p>
               </div>
             </div>
             <div className='animate-slide-left bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
@@ -85,10 +88,19 @@ export default function Home() {
             <div className='animate-slide-right top-16 right-0 absolute z-10 border-gold border-l-4 border-t-4 banner2derH'>
               <img className='h-full grayscale  '  src="/banner2der.png" />
             </div>
-            <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-36 translate-y-28  z-10 '>
-              <p className=' hover:filter-none w-28 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Participación</p>
-              <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-6xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
-              <p className=' hover:filter-none w-96 top-0 -left-48 font-heads ml-1 text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Msc moda, diseño y gestión de lujo</p>
+            <div className='w-auto h-auto absolute bottom-1/4 left-1/2 transform -translate-x-1/2 translate-y-10  z-10 '>
+              <p className=' hover:filter-none w-auto max-w-md top-0 -left-48 font-body text-lg text-bgr font-extralight  z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos.</p>
+            </div>
+            <div className='w-11/12 h-screen absolute top-2/3 left-1/2 transform -translate-x-1/2'>
+              <div className=" flex  2xl:flex-row items-center  text-base w-full h-16 mt-20 justify-end">
+                  {/* Left */}
+                  <Link  href="/" passHref>
+                    <div className="grid place-content-start mr-3">
+                      <h1 className='font-heads text-gold text-2xl'>MMDC</h1>
+                    </div>
+                  </Link>
+                
+              </div>
             </div>
             <div className='lineaD z-0  top-1/3 left-0 mt-32 w-full  '></div>
           </div>
