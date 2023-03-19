@@ -10,7 +10,7 @@ export default function Home() {
     <>
       
       <main className="w-screen">
-      /**primer banner **/
+      {/**primer banner **/}
       <div className='w-auto h-auto bg-bgr flex justify-center'>
         <div className='relative max-w-7xl w-screen flex  flex-col justify-center items-center'>
           <div className='w-11/12 h-screen'>
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </div>
       <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
-      /**segundo banner **/
+      {/**segundo banner **/}
       <div className='w-auto h-auto bg-bgr2 flex justify-center'>
         <div className='relative max-w-7xl w-screen flex  flex-col justify-center items-center'>
           <div className='w-11/12 h-screen'>
