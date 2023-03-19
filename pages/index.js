@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </div>
       <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
-      <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-40 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
+      <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-40 -translate-y-40 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
       {/**segundo banner **/}
       <div className='w-auto h-auto bg-bgr2 flex justify-center'>
         <div className='relative max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
@@ -106,6 +106,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
+      <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-40 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
+      {/**tercer banner **/}
       </main>
     </>
   )
