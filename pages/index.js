@@ -1481,19 +1481,30 @@ export default function Home() {
                         <div className='w-auto h-auto text-gold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row items-center'>
                           
                           <div className='flex flex-col items-center w-full'>
-                              <p className='font-heads text-3xl'>MMDC</p> 
+                              <p className='font-heads text-3xl mb-10'>MMDC</p> 
                               <p className='font-heads font-extralight text-2xl w-max '>Msc moda, diseño y gestión de lujo</p>
-                              <div className="flex items-center justify-evenly w-full h-auto border-y border-gold">
-                              <p className='font-heads font-extralight text-2xl w-max  '>Sabado</p>
-                              <div className='flex flex-col items-center '>
-                                <p className='font-heads font-extralight text-2xl w-max '>Abril</p>
-                                <p className='font-heads font-extralight text-5xl w-max '>I</p>
-                                <p className='font-heads font-extralight text-2xl w-max '>2022</p>
-                                
+                              <div className="flex items-center justify-evenly w-full h-auto border-y border-gold my-6">
+                                <p className='font-heads font-extralight text-2xl w-max '>Sabado</p>
+                                <div className='flex flex-col items-center py-2'>
+                                  <p className='font-heads font-extralight text-2xl w-max '>Abril</p>
+                                  <p className='font-heads font-extralight text-5xl w-max '>I</p>
+                                  <p className='font-heads font-extralight text-2xl w-max '>2022</p>
+                                </div>
+                                <p className='font-heads font-extralight text-2xl w-max '>9:00 am</p>
                               </div>
-                              <p className='font-heads font-extralight text-2xl w-max '>9:00 am</p>
-                              </div>
-                              <button className="bg-blue-500 text-white p-2 rounded mt-4" onClick={mostrarDiv1}>Mostrar Div 1</button>
+                              <p className='font-heads font-extralight text-2xl w-max '>Grenoble École de Management</p>
+                              <p className='font-heads font-extralight text-2xl w-max '>12 Rue Pierre Semard, 38000</p>
+                              <p className='font-heads font-extralight text-2xl w-max '>Grenoble, Francia</p>
+                              <Link  href="/" passHref>
+                                <div className=" mt-10">
+                                    <svg className='onClick={mostrarDiv1}' width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="20" cy="20" r="20" fill="#94856F"/>
+                                      <circle cx="68" cy="34" r="11" fill="#94856F"/>
+                                      <circle cx="107" cy="34" r="6" fill="#94856F"/>
+                                      <path d="M23.3724 11.3672C23.2563 11.2508 23.1184 11.1585 22.9665 11.0955C22.8147 11.0324 22.6519 11 22.4874 11C22.323 11 22.1602 11.0324 22.0084 11.0955C21.8565 11.1585 21.7186 11.2508 21.6024 11.3672L13.2924 19.6772C13.1997 19.7697 13.1262 19.8796 13.076 20.0006C13.0258 20.1216 13 20.2513 13 20.3822C13 20.5132 13.0258 20.6429 13.076 20.7639C13.1262 20.8848 13.1997 20.9947 13.2924 21.0872L21.6024 29.3972C22.0924 29.8872 22.8824 29.8872 23.3724 29.3972C23.8624 28.9072 23.8624 28.1172 23.3724 27.6272L16.1324 20.3772L23.3824 13.1272C23.8624 12.6472 23.8624 11.8472 23.3724 11.3672Z" fill="#23241F"/>
+                                    </svg>
+                                </div>
+                              </Link>
                           </div>
                         </div>
                     </div>
