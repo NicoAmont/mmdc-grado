@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       
-      <main className="w-screen">
+      <main className="w-screen max-w-7xl">
         {/**primer banner **/}
         <div className='w-auto h-auto bg-bgr flex justify-center'>
           <div className='relative max-w-7xl maxH w-screen flex  flex-col justify-center items-center'>
