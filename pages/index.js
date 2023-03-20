@@ -38,7 +38,7 @@ export default function Home() {
                     </div>
                   </Link>
                   {/* Rigth */}
-                  <Link  href="/" passHref>
+                  <Link  href="/mihistoria" passHref>
                     <div className="grid place-content-start  mr-3">
                       <h1 className='font-heads text-bgr2 text-2xl'>MMDC</h1>
                     </div>
@@ -1503,14 +1503,14 @@ export default function Home() {
                               <p className='font-heads font-extralight text-2xl w-max '>12 Rue Pierre Semard, 38000</p>
                               <p className='font-heads font-extralight text-2xl w-max '>Grenoble, Francia</p>
                               
-                                <div className=" mt-10">
-                                    <svg className={`onClick={mostrarDiv1}`} width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <button className=" mt-10" onClick={mostrarDiv1}>
+                                    <svg className={``} width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <circle cx="20" cy="20" r="20" fill="#94856F"/>
                                       <circle cx="68" cy="34" r="11" fill="#94856F"/>
                                       <circle cx="107" cy="34" r="6" fill="#94856F"/>
                                       <path d="M23.3724 11.3672C23.2563 11.2508 23.1184 11.1585 22.9665 11.0955C22.8147 11.0324 22.6519 11 22.4874 11C22.323 11 22.1602 11.0324 22.0084 11.0955C21.8565 11.1585 21.7186 11.2508 21.6024 11.3672L13.2924 19.6772C13.1997 19.7697 13.1262 19.8796 13.076 20.0006C13.0258 20.1216 13 20.2513 13 20.3822C13 20.5132 13.0258 20.6429 13.076 20.7639C13.1262 20.8848 13.1997 20.9947 13.2924 21.0872L21.6024 29.3972C22.0924 29.8872 22.8824 29.8872 23.3724 29.3972C23.8624 28.9072 23.8624 28.1172 23.3724 27.6272L16.1324 20.3772L23.3824 13.1272C23.8624 12.6472 23.8624 11.8472 23.3724 11.3672Z" fill="#23241F"/>
                                     </svg>
-                                </div>
+                                </button>
                             
                           </div>
                         </div>
@@ -1544,16 +1544,20 @@ export default function Home() {
               <div className='animate-slide-left bottom-0 left-0 absolute z-10 flex  flex-col justify-center items-center'>
                   <img className='h-full grayscale'  src="/endbannerizq.png" />
                   <p className='font-heads text-gold text-3xl mt-3'>Grenoble École de Management</p>
-                  <div className="flex justify-center">
-                      <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
-                  </div>
+                  <Link  href="/mihistoria" passHref>
+                    <div className="flex justify-center">
+                        <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
+                    </div>
+                  </Link>
               </div>
-              <div className='animate-slide-right bottom-0 right-0 absolute z-10 flex  flex-col justify-center items-center'>
+              <div className='animate-slide-right bottom-0 right-40 absolute z-10 flex  flex-col justify-center items-center'>
                   <img className='h-full grayscale'  src="/endbannerder.png" />
-                  <p className='font-heads text-gold text-3xl mt-3'>Grenoble École de Management</p>
-                  <div className="flex justify-center">
-                      <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
-                  </div>
+                  <p className='font-heads text-gold text-3xl mt-3'>Mi historia</p>
+                  <Link  href="/mihistoria" passHref>
+                    <div className="flex justify-center">
+                        <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
+                    </div>
+                  </Link>
               </div>
             </div>
           </div>
