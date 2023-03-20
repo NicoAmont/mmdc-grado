@@ -68,7 +68,7 @@ export default function Home() {
         <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
         <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-40 -translate-y-40 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
         {/**segundo banner **/}
-        <div className='w-auto h-auto bg-bgr2 flex justify-center'>
+        <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
           <div className='relative max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
             <div className='w-11/12 h-screen '>
               <div className=" flex  2xl:flex-row items-center  text-base w-full h-auto xl:mt-10  justify-center">
@@ -112,11 +112,11 @@ export default function Home() {
                   
                 </div>
               </div>
-              <div className='lineaD z-0  top-1/3 left-0 mt-32 w-full  '></div>
+              <div className='lineaD z-0  top-1/3 left-0 mt-40 w-full  '></div>
             </div>
           </div>
         </div>
-        <div className='linea z-0  top-0 -left-20 transform translate-y-40 mt-10 w-2/3 rotate-90 '></div>
+        <div className='linea z-0 absolute top-0  left-40 transform -translate-x-0 translate-y-32  mt-10 w-2/3 max-w-xl rotate-90 '></div>
         <div className='linea z-0 absolute top-0  left-1/2 transform -translate-x-0 -translate-y-32 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
         {/**tercer banner **/}
         <div className='w-auto h-auto minH2 bg-bgr flex justify-center'>
@@ -1495,16 +1495,16 @@ export default function Home() {
                               <p className='font-heads font-extralight text-2xl w-max '>Grenoble École de Management</p>
                               <p className='font-heads font-extralight text-2xl w-max '>12 Rue Pierre Semard, 38000</p>
                               <p className='font-heads font-extralight text-2xl w-max '>Grenoble, Francia</p>
-                              <Link  href="/" passHref>
+                              
                                 <div className=" mt-10">
-                                    <svg className='onClick={mostrarDiv1}' width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className={`onClick={mostrarDiv1}`} width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <circle cx="20" cy="20" r="20" fill="#94856F"/>
                                       <circle cx="68" cy="34" r="11" fill="#94856F"/>
                                       <circle cx="107" cy="34" r="6" fill="#94856F"/>
                                       <path d="M23.3724 11.3672C23.2563 11.2508 23.1184 11.1585 22.9665 11.0955C22.8147 11.0324 22.6519 11 22.4874 11C22.323 11 22.1602 11.0324 22.0084 11.0955C21.8565 11.1585 21.7186 11.2508 21.6024 11.3672L13.2924 19.6772C13.1997 19.7697 13.1262 19.8796 13.076 20.0006C13.0258 20.1216 13 20.2513 13 20.3822C13 20.5132 13.0258 20.6429 13.076 20.7639C13.1262 20.8848 13.1997 20.9947 13.2924 21.0872L21.6024 29.3972C22.0924 29.8872 22.8824 29.8872 23.3724 29.3972C23.8624 28.9072 23.8624 28.1172 23.3724 27.6272L16.1324 20.3772L23.3824 13.1272C23.8624 12.6472 23.8624 11.8472 23.3724 11.3672Z" fill="#23241F"/>
                                     </svg>
                                 </div>
-                              </Link>
+                            
                           </div>
                         </div>
                     </div>
