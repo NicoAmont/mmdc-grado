@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 rotate-90 '></div>
+        <div className='linea z-0  bottom-0 -left-72 mt-10 w-2/3 top-40 rotate-90 '></div>
         <div className='linea z-0 absolute bottom-0 left-1/2 transform translate-x-40 -translate-y-40 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
       </div>
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
@@ -120,8 +120,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='linea z-0 absolute top-0  left-40 transform -translate-x-0 translate-y-32  mt-10 w-2/3 max-w-xl rotate-90 '></div>
-          <div className='linea z-0 absolute top-0  left-1/2 transform -translate-x-0 -translate-y-32 mt-10 w-2/3 max-w-2xl rotate-90 '></div>
+          <div className='linea z-0 absolute top-0 left-0 transform -translate-x-1/2 w-2/3 max-w-xl rotate-90 '></div>
+          <div className='linea z-0 absolute top-0  left-0 transform translate-x-1/2  mt-10 w-2/3 max-w-2xl rotate-90 '></div>
         </div>
       </div>
       <div className='max-w-7xl bg-bgr'>
