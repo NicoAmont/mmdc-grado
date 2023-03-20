@@ -789,7 +789,7 @@ export default function Home() {
                               <p className='font-body font-extralight text-xl '>Partipación grado</p>
                               <p className='font-heads text-3xl'>MMDC</p>
                               <div className="flex justify-center">
-                                  <button className="rounded-full bg-bgr3 py-1 px-4 shadow-2xl text-gold font-body font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
+                                  <button className="rounded-lg bg-bgr3 py-1 px-4 shadow-2xl text-gold font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
                               </div>
                           </div>
                           <svg className='mr-3 rotate-180' width="27" height="90" viewBox="0 0 27 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1532,9 +1532,34 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='linea z-0  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 rotate-90 '></div>  
       </div>
         
-      
+      <div className='max-w-7xl bg-bgr'>
+        {/**tercer banner **/}
+        <div className='linea z-0  top-40 left-1/4 transform -translate-y-1/4 w-3/3 max-w-2xl '></div> 
+        <div className='w-auto h-auto minH2 bg-bgr flex justify-center'>
+          <div className=' max-w-7xl  h-auto w-screen flex  flex-col justify-center items-center'>
+            <div className={`w-11/12 flex  flex-col justify-center items-center relative`}>
+              <div className='animate-slide-left bottom-0 left-0 absolute z-10 flex  flex-col justify-center items-center'>
+                  <img className='h-full grayscale'  src="/endbannerizq.png" />
+                  <p className='font-heads text-gold text-3xl mt-3'>Grenoble École de Management</p>
+                  <div className="flex justify-center">
+                      <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
+                  </div>
+              </div>
+              <div className='animate-slide-right bottom-0 right-0 absolute z-10 flex  flex-col justify-center items-center'>
+                  <img className='h-full grayscale'  src="/endbannerder.png" />
+                  <p className='font-heads text-gold text-3xl mt-3'>Grenoble École de Management</p>
+                  <div className="flex justify-center">
+                      <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+      </div>
         
       </main>
     </>
