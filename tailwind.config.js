@@ -32,7 +32,8 @@ module.exports = {
     colors: {
       bgr: '#070707',
       gold: '#94856F',
-      bgr2: '#CCCCCC'
+      bgr2: '#CCCCCC',
+      bgr3: '#232420'
 
 
 

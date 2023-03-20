@@ -29,6 +29,13 @@ input[type=number]::-webkit-outer-spin-button {
 .maxH{
   max-height: 800px;
 }
+.tarjetaw{
+  width: 334px;
+  height: 175px;
+}
+.minH2{
+  min-height: 820px;
+}
 @media (min-width: 380px){    
   .minH{
     min-height: 720px;
@@ -149,3 +156,14 @@ input[type=number]::-webkit-outer-spin-button {
     }
   }
 
+/*Tarjeta de participación*/
+.fondo-tarjeta1 {
+  background-image: url('../public/fondoTarjeta1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondo-tarjeta2 {
+  background-image: url('../public/fondoTarjeta2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
