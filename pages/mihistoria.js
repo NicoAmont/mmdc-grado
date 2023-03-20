@@ -52,7 +52,7 @@ export default function Home() {
                 <div className='overflow-hidden w-full h-full top-0 left-0'>
 
                   <div className='hidden sm:flex animate-slide-right top-0 right-0 absolute '>
-                    <img className='h-screen grayscale  mr-10'  src="/mih_banner1der.png" />
+                    <img className='h-screen grayscale maxH mr-10'  src="/mih_banner1der.png" />
                   </div>
                 </div>
               </div>
