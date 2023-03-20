@@ -123,8 +123,8 @@ export default function Home() {
           <div className=' max-w-7xl  h-auto w-screen flex  flex-col justify-center items-center'>
             <div className={`w-11/12 flex  flex-col justify-center items-center relative`}>
              {/**tarjeta participacion **/}
-              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 fondo-tarjeta1 bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 max-w-3xl h-3/4 minH filter-none ${showDiv1 ? "opacity-100 z-10" : "opacity-0 z-0"} transition-all duration-1000 ease-linear`}>
-                <div className='w-full h-full relative hover:filter-none '>
+              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 max-w-3xl h-3/4 minH filter-none ${showDiv1 ? "opacity-100 z-10" : "opacity-0 z-0"} transition-all duration-1000 ease-linear`}>
+                <div className='w-full h-full relative hover:filter-none fondo-tarjeta1'>
                   <div className='tarjetaw bg-bgr3 border-gold border-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                     <div className='w-full h-full relative'>
                         <div className='w-80 h-40 bg-gold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row items-center justify-evenly'>
@@ -489,8 +489,8 @@ export default function Home() {
                 </div>
               </div>
               {/**tarjeta detalle **/}
-              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 fondo-tarjeta2 bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 max-w-3xl h-3/4 minH filter-none ${showDiv1 ? "opacity-0 z-0" : "opacity-100 z-10"} transition-all duration-1000 ease-linear`}>
-                <div className='w-full h-full relative hover:filter-none '>
+              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 max-w-3xl h-3/4 minH filter-none ${showDiv1 ? "opacity-0 z-0" : "opacity-100 z-10"} transition-all duration-1000 ease-linear`}>
+                <div className='w-full h-full relative hover:filter-none  fondo-tarjeta2'>
                   <div className='tarjetaw absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                     <div className='w-full h-full relative'>
                         <div className='w-auto h-auto text-gold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row items-center'>
