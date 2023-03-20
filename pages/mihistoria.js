@@ -38,16 +38,17 @@ export default function Home() {
                     </Link>
                 </div>
 
-                <div className='h-auto z-10 hover:filter-none flex flex-col top-40 left-1/4 transform -translate-y-0 -translate-x-1/4 bottom-0 w-auto filter-none'>
-                  <div className='w-full h-full  hover:filter-none '>
-                    <p className=' hover:filter-none top-0  font-heads sm:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none sm:mr-40 ml-2'>
+                  <div className='w-full h-full  hover:filter-none mt-10'>
+                    <p className=' hover:filter-none top-0  font-heads text-5xl sm:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body sm:text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                   </div>
-                  <div className='mt-10 gap-2 flex flex-row '>
-                    <img className='h-full grayscale'  src="/collage1_1.png" />
-                    <img className='h-full grayscale'  src="/collage1_2.png" />
-                    <img className='h-full grayscale'  src="/collage1_3.png" />
-                  </div>
+                    <div className='mt-10 gap-2 flex flex-row  h-full overflow-x-scroll overflow-y-hidden '>
+                      <img className=' grayscale'  src="/collage1_1.png" />
+                      <img className=' grayscale'  src="/collage1_2.png" />
+                      <img className=' grayscale'  src="/collage1_3.png" />
+                    </div>
+                  
                 </div>
                 <div className='overflow-hidden w-full h-full top-0 left-0'>
 
@@ -58,9 +59,33 @@ export default function Home() {
               </div>
             </div>
           </div>
-        
       </div>
-      
+      <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
+          {/**segundo banner **/}
+          <div className='w-auto h-auto  bg-bgr flex justify-center'>
+            <div className=' max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
+              <div className='w-11/12 h-auto sm:h-screen flex  flex-col justify-center items-center '>
+                <div className='hidden sm:flex animate-slide-right top-0 right-0 absolute '>
+                  <img className='h-screen grayscale maxH mr-10'  src="/mih_banner1der.png" />
+                </div>
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none sm:mr-40 ml-2'>
+                  <div className='w-full h-full  hover:filter-none mt-10'>
+                    <p className=' hover:filter-none top-0  font-heads text-5xl sm:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body sm:text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                  </div>
+                  <div className='mt-10 gap-2 flex flex-row  h-full overflow-x-scroll overflow-y-hidden '>
+                    <img className=' grayscale'  src="/collage1_1.png" />
+                    <img className=' grayscale'  src="/collage1_2.png" />
+                    <img className=' grayscale'  src="/collage1_3.png" />
+                  </div>
+                </div>
+                <div className='overflow-hidden w-full h-full top-0 left-0'>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
       </main>
     </>
   )
