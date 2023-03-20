@@ -29,6 +29,10 @@ input[type=number]::-webkit-outer-spin-button {
 .maxH{
   max-height: 800px;
 }
+.maxtw{
+  max-width: 704px;
+  min-height: 704px;
+}
 .tarjetaw{
   width: 334px;
   height: 175px;
@@ -38,7 +42,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @media (min-width: 380px){    
   .minH{
-    min-height: 720px;
+    max-height: 720px;
   }
 }
 
