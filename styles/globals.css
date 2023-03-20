@@ -165,5 +165,6 @@ input[type=number]::-webkit-outer-spin-button {
 .fondo-tarjeta2 {
   background-image: url('../public/fondoTarjeta2.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
