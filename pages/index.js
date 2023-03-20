@@ -498,9 +498,17 @@ export default function Home() {
                           <div className='flex flex-col items-center w-full'>
                               <p className='font-heads text-3xl'>MMDC</p> 
                               <p className='font-heads font-extralight text-2xl w-max '>Msc moda, diseño y gestión de lujo</p>
-                              <div className="flex justify-center">
-                                  <button className="bg-blue-500 text-white p-2 rounded mt-4" onClick={mostrarDiv1}>Mostrar Div 1</button>
+                              <div className="flex items-center justify-evenly w-full h-auto border-y border-gold">
+                              <p className='font-heads font-extralight text-2xl w-max  '>Sabado</p>
+                              <div className='flex flex-col items-center '>
+                                <p className='font-heads font-extralight text-2xl w-max '>Abril</p>
+                                <p className='font-heads font-extralight text-5xl w-max '>I</p>
+                                <p className='font-heads font-extralight text-2xl w-max '>2022</p>
+                                
                               </div>
+                              <p className='font-heads font-extralight text-2xl w-max '>9:00 am</p>
+                              </div>
+                              <button className="bg-blue-500 text-white p-2 rounded mt-4" onClick={mostrarDiv1}>Mostrar Div 1</button>
                           </div>
                         </div>
                     </div>
