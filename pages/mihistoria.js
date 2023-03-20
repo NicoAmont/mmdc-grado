@@ -14,10 +14,10 @@ export default function Home() {
       
       <main className="w-screen flex flex-col justify-center items-center align-middle">
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
-          {/**segundo banner **/}
+          {/**primer banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
             <div className=' max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
-              <div className='w-11/12 h-auto sm:h-screen flex  flex-col justify-center items-center '>
+              <div className='w-11/12 h-auto md:h-screen flex  flex-col justify-center items-center '>
                 <div className=" flex relative z-20 2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-between">
                     {/* Left */}
                     <Link  href="/" passHref>
@@ -33,15 +33,15 @@ export default function Home() {
                     {/* Rigth */}
                     <Link  href="/mihistoria" passHref>
                       <div className="grid place-content-start z-20  mr-3">
-                        <h1 className='font-heads text-gold sm:text-bgr2 text-2xl'>MMDC</h1>
+                        <h1 className='font-heads text-gold md:text-bgr2 text-2xl'>MMDC</h1>
                       </div>
                     </Link>
                 </div>
 
-                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none sm:mr-40 ml-2'>
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 ml-2'>
                   <div className='w-full h-full  hover:filter-none mt-10'>
-                    <p className=' hover:filter-none top-0  font-heads text-5xl sm:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
-                    <p className=' hover:filter-none max-w-lg top-0  font-body sm:text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <p className=' hover:filter-none top-0  font-heads text-5xl md:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                   </div>
                     <div className='mt-10 gap-2 flex flex-row  h-full overflow-x-scroll overflow-y-hidden '>
                       <img className=' grayscale'  src="/collage1_1.png" />
@@ -52,7 +52,7 @@ export default function Home() {
                 </div>
                 <div className='overflow-hidden w-full h-full top-0 left-0'>
 
-                  <div className='hidden sm:flex animate-slide-right top-0 right-0 absolute '>
+                  <div className='hidden md:flex animate-slide-right top-0 right-0 absolute '>
                     <img className='h-screen grayscale maxH mr-10'  src="/mih_banner1der.png" />
                   </div>
                 </div>
@@ -63,25 +63,24 @@ export default function Home() {
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr flex justify-center'>
-            <div className=' max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
-              <div className='w-11/12 h-auto sm:h-screen flex  flex-col justify-center items-center '>
-                <div className='hidden sm:flex animate-slide-right top-0 right-0 absolute '>
-                  <img className='h-screen grayscale maxH mr-10'  src="/mih_banner1der.png" />
-                </div>
-                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none sm:mr-40 ml-2'>
+            <div className='mt-10 max-w-7xl minH md:maxH w-screen flex  flex-col justify-center items-center'>
+              <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle '>
+                
+                  <img className=' md:w-auto md:h-screen grayscale md:maxH md:mr-10  md:flex'  src="/mih_banner2izq.png" />
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 ml-2'>
                   <div className='w-full h-full  hover:filter-none mt-10'>
-                    <p className=' hover:filter-none top-0  font-heads text-5xl sm:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
-                    <p className=' hover:filter-none max-w-lg top-0  font-body sm:text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
-                  </div>
-                  <div className='mt-10 gap-2 flex flex-row  h-full overflow-x-scroll overflow-y-hidden '>
-                    <img className=' grayscale'  src="/collage1_1.png" />
-                    <img className=' grayscale'  src="/collage1_2.png" />
-                    <img className=' grayscale'  src="/collage1_3.png" />
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                      <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                   </div>
                 </div>
-                <div className='overflow-hidden w-full h-full top-0 left-0'>
-                  
-                </div>
+                  <div className='mt-10 gap-10 flex flex-row  h-full overflow-x-scroll overflow-y-hidden md:flex-col w-auto md:justify-center md:items-center md:align-middle '>
+                    <img className='mr-2 grayscale'  src="/gal2_1.png" />
+                    <img className='ml-2 grayscale'  src="/gal2_2.png" />
+                    <img className='mr-2 grayscale'  src="/gal2_3.png" />
+                  </div>
+                
               </div>
             </div>
           </div>
