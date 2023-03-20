@@ -123,9 +123,9 @@ export default function Home() {
           <div className=' max-w-7xl  h-auto w-screen flex  flex-col justify-center items-center'>
             <div className={`w-11/12 flex  flex-col justify-center items-center relative`}>
              {/**tarjeta participacion **/}
-              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    hover:filter-none flex flex-row  w-3/4 maxtw h-4/5 filter-none ${showDiv1 ? "opacity-100 z-10" : "opacity-0 z-0"} transition-all duration-1000 ease-linear`}>
+              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    hover:filter-none flex flex-row  w-3/4 maxtw h-3/4  filter-none ${showDiv1 ? "opacity-100 z-10" : "opacity-0 z-0"} transition-all duration-1000 ease-linear`}>
                 <div className='w-full h-full relative hover:filter-none'>
-                  <svg className='h-full w-full absolute top-2 bg-bgr3 border-gold border-2' width="704" height="704" viewBox="0 0 696 696" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className='h-full w-full absolute  bg-bgr3 border-gold border-2' viewBox="0 0 696 696" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M46.4543 0H52.6277C50.5216 1.0585 48.3611 2.0445 46.4761 3.48C46.4725 2.32 46.4688 1.16 46.4543 0Z" fill="#94856F"/>
                   <path d="M134.473 0H136.576C130.721 4.47325 125.646 9.87812 121.14 15.689C122.256 13.2548 127.852 5.72424 134.857 0.141375L134.473 0Z" fill="#94856F"/>
                   <path d="M175.932 0H178.966C164.124 6.87699 156.991 15.56 154.494 17.4834C159.215 10.6155 168.026 4.04623 175.932 0Z" fill="#94856F"/>
@@ -965,9 +965,9 @@ export default function Home() {
                 </div>
               </div>
               {/**tarjeta detalle **/}
-              <div className= {`absolute out top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 maxtw h-3/4 minH filter-none ${showDiv1 ? "opacity-0 z-0" : "opacity-100 z-10"} transition-all duration-1000 ease-linear`}>
+              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 maxtw h-3/4  filter-none ${showDiv1 ? "opacity-0 z-0" : "opacity-100 z-10"} transition-all duration-1000 ease-linear`}>
                 <div className='w-full h-full relative hover:filter-none '>
-                  <svg className='h-full w-full absolute top-2 left-1'  viewBox="0 0 704 704" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className='h-full w-full absolute left-1'  viewBox="0 0 704 704" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g opacity="0.04" filter="url(#filter0_di_256_1431)">
                       <path d="M47.4543 0H53.6277C51.5216 1.0585 49.3611 2.0445 47.4761 3.48C47.4725 2.32 47.4688 1.16 47.4543 0Z" fill="#94856F"/>
                       <path d="M135.473 0H137.576C131.721 4.47325 126.646 9.87812 122.14 15.689C123.256 13.2548 128.852 5.72424 135.857 0.141375L135.473 0Z" fill="#94856F"/>
@@ -1500,7 +1500,7 @@ export default function Home() {
                 </div>
                 </div>
               </div>
-              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  hover:filter-none flex flex-row  w-3/4 max-w-3xl h-3/4 minH filter-none transition-all duration-1000 ease-linear`}>
+              <div className= {`absolute out top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-bgr3  hover:filter-none flex flex-row  w-3/4 maxtw h-3/4  filter-none`}>
                 <div className='w-full h-full relative hover:filter-none '>
                   <div className='tarjetaw absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                     <div className='w-full h-full relative'>
