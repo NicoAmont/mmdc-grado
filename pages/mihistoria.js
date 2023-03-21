@@ -138,11 +138,13 @@ export default function Home() {
       </div>
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
           {/**quinto banner **/}
-          <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
-            <div className=' max-w-7xl minH maxH w-screen flex  flex-col '>
-              <div className=''>   
-                <p>Gracias por acompañarme en una aventura mas</p>
-                <p>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. </p>
+          <div className='w-auto h-auto  bg-bgr2 flex justify-center items-center'>
+            <div className=' max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
+              <div className='w-full h-full flex flex-col md:flex-row justify-center items-center'>   
+                <div className='w-auto h-auto max-w-xl'>
+                  <p className='font-heads text-4xl text-gold'>Gracias por acompañarme en una aventura mas</p>
+                  <p>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. </p>
+                </div>
                 <img className='mr-2 grayscale'  src="/lastm.png" />
               </div>
             </div>
