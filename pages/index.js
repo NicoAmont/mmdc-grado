@@ -75,20 +75,7 @@ export default function Home() {
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
             <div className='relative max-w-7xl minH2 minH3 w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-screen '>
-                <div className="hidden md:flex  2xl:flex-row items-center  text-base w-full h-auto xl:mt-10  justify-center">
-                    {/* Left */}
-                    <Link  href="/" passHref>
-                      <div className="grid place-content-start  ml-3">
-                          <svg width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <circle cx="20" cy="20" r="20" fill="#94856F"/>
-                              <circle cx="68" cy="34" r="11" fill="#94856F"/>
-                              <circle cx="107" cy="34" r="6" fill="#94856F"/>
-                              <path d="M10 16.0005L19.732 11.1345C19.8152 11.0929 19.907 11.0713 20 11.0713C20.093 11.0713 20.1848 11.0929 20.268 11.1345L30 16.0005M28 19.0005V27.0005C28 27.5309 27.7893 28.0396 27.4142 28.4147C27.0391 28.7898 26.5304 29.0005 26 29.0005H14C13.4696 29.0005 12.9609 28.7898 12.5858 28.4147C12.2107 28.0396 12 27.5309 12 27.0005V19.0005" stroke="#CCCCCC" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                          </svg>
-                      </div>
-                    </Link>
-                  
-                </div>
+                
                 <div className='absolute z-10 hover:filter-none flex flex-row top-10 md:top-24 left-1/4 transform -translate-y-0 -translate-x-1/4 bottom-0 w-auto h-96 filter-none'>
                   <div className='w-full h-full relative hover:filter-none '>
                     <p className=' hover:filter-none w-auto top-0  font-heads text-6xl text-gold font-extralight z-10 filter-none mb-3'>Celebremos juntos</p>
@@ -117,7 +104,7 @@ export default function Home() {
                     
                   </div>
                 </div>
-                <div className='hidden md:flex lineaD z-0  top-1/3 left-0 mt-40 w-full  '></div>
+                <div className='hidden md:flex lineaD z-0  top-1/3 left-0 mt-52 w-full  '></div>
               </div>
             </div>
           </div>
@@ -1539,7 +1526,7 @@ export default function Home() {
       <div className='max-w-7xl bg-bgr'>
         {/**tercer banner **/}
         <div className='linea z-0  top-40 left-0 md:left-1/4 transform -translate-y-1/4 w-3/3 max-w-7xl sm:max-w-2xl'></div> 
-        <div className='w-auto h-auto minH2 bg-bgr flex justify-center'>
+        <div className='w-auto h-auto minH4 bg-bgr flex justify-center'>
           <div className=' max-w-7xl h-auto w-screen flex flex-col justify-center items-center'>
             <div className={`w-11/12 flex flex-col justify-center items-center relative`}>
               <div className='animate-slide-left -bottom-96 md:bottom-0  left-0 absolute z-10 flex flex-col justify-center items-center'>

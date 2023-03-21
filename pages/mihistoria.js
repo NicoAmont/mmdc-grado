@@ -88,7 +88,7 @@ export default function Home() {
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
           {/**tercer banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
-            <div className=' max-w-7xl minH2 w-screen flex  flex-col '>
+            <div className=' max-w-7xl h-auto w-screen flex  flex-col '>
               <div className=' h-auto md:h-screen flex  flex-row justify-between relative '>
                 
                 <div className='h-auto z-10 hover:filter-none mb-10 flex flex-col align-middle justify-center w-auto filter-none md:mr-40 ml-6'>
