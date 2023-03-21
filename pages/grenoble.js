@@ -44,26 +44,38 @@ export default function Home() {
               
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none '>
                   <div className='w-full h-full flex flex-col xl:flex-row  justify-center align-middle items-center hover:filter-none '>
-                    <p className='ml-2 sm:ml-0 border-gold border-l-2 pl-2 hover:filter-none max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <p className='ml-2 sm:ml-0 border-gold border-l-2 pl-2 hover:filter-none max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>La Grenoble École de Management, fundada en 1984, es una escuela de negocios líder a nivel internacional. El objetivo principal de esta institución es promover el desempeño corporativo, proporcionando habilidades y conocimientos a través de la excelencia en la innovación pedagógica y la investigación aplicada.</p>
                     <img className=' grayscale maxH  scale-75'  src="/1b.png" />
                   </div>
                 </div>
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none'>
                   <div className='w-full h-full flex flex-col-reverse xl:flex-row justify-center align-middle items-center hover:filter-none '>
                     <img className=' grayscale maxH  scale-75'  src="/2b.png" />
-                    <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <div className='flex flex-col'>
+                        <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Esta escuela es reconocida, principalmente por su enseñanza en innovación y gestión. Su oferta educativa incluye programas de alto nivel y reconocidos internacionalmente.</p>
+                        <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>De acuerdo a EduRank, esta escuela ocupa el lugar número 94 de las universidades francesas.
+    Actualmente está clasificada entre las 40 mejores escuelas de negocios europeas por el Financial Times.</p>
+                    </div>
                   </div>
                 </div>
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none '>
                   <div className='w-full h-full flex flex-col xl:flex-row  justify-center align-middle items-center hover:filter-none '>
-                    <p className='ml-2 sm:ml-0 border-gold border-l-2 pl-2 hover:filter-none max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <div className='flex flex-col'>
+                        
+                        <p className='ml-2 sm:ml-0 border-gold border-l-2 pl-2 hover:filter-none max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Además, se encuentra en el 1% de las Escuelas de Negocios a nivel mundial por haber obtenido la Triple Crown de acreditaciones. El cual es un reconocimiento internacional a la calidad de la organización, sus programas y las titulaciones que imparte.</p>
+                        <p className='ml-2 sm:ml-0 border-gold border-l-2 pl-2 hover:filter-none max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Entre sus egresados notables, podemos nombrar a Stéphanie Hospital, Fundadora y CEO de OneRagTime; Sylvain Maillard, político y miembro del Consejo de Estado de Francia desde el 2017 y; Alexandre Camarasa, jugador de waterpolo.</p>
+                    </div>
                     <img className=' grayscale maxH  scale-75'  src="/4b.png" />
                   </div>
                 </div>
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none'>
                   <div className='w-full h-full flex flex-col-reverse xl:flex-row justify-center align-middle items-center hover:filter-none '>
                     <img className=' grayscale maxH  scale-75'  src="/4b.png" />
-                    <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <div className='flex flex-col'>
+                        <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>GEM es muy famosa para su enseñanza en: "Negocios, Finanzas, Marketing y Management de Tecnologias".
+    Esta escuela tiene las 3 acreditaciones más importantes de valorización académica: EQUIS,1​ AACSB2​ y AMBA.</p>
+                        <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Creada en 1984 por la Cámara de Comercio e Industria de Grenoble (CCI), su primer nombre fue la escuela superior de negocios de Grenoble.</p>
+                    </div>
                   </div>
                 </div>
                   

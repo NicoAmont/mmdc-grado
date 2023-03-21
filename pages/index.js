@@ -94,7 +94,7 @@ export default function Home() {
                     <p className=' hover:filter-none w-auto top-0  font-heads text-6xl text-gold font-extralight z-10 filter-none mb-3'>Celebremos juntos</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Para mi y mi familia es un honor contar contigo este día tan especial, agradezco de la manera que puedas tu compañía.</p>
-                    <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos</p>
+                    <p className='md:hidden hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos</p>
                   </div>
                 </div>
                 <div className=' animate-slide-left -bottom-0 md:bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
