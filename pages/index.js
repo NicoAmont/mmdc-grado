@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-32 md:translate-x-36  md:translate-y-28 translate-y-32  z-10 '>
                 <p className=' hover:filter-none w-28 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Participación</p>
-                <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-5xl md:text-6xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
+                <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-6xl md:text-6xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
                 <p className=' hover:filter-none w-96 top-0 -left-48 font-heads ml-1 text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Msc moda, diseño y gestión de lujo</p>
               </div>
               <div className='linea z-0  top-1/3 left-1/2 w-1/2'></div>
@@ -75,7 +75,7 @@ export default function Home() {
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
             <div className='relative max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-screen '>
-                <div className=" flex  2xl:flex-row items-center  text-base w-full h-auto xl:mt-10  justify-center">
+                <div className="hidden md:flex  2xl:flex-row items-center  text-base w-full h-auto xl:mt-10  justify-center">
                     {/* Left */}
                     <Link  href="/" passHref>
                       <div className="grid place-content-start  ml-3">
@@ -89,17 +89,17 @@ export default function Home() {
                     </Link>
                   
                 </div>
-                <div className='absolute z-10 hover:filter-none flex flex-row top-24 left-1/4 transform -translate-y-0 -translate-x-1/4 bottom-0 w-auto h-96 filter-none'>
+                <div className='absolute z-10 hover:filter-none flex flex-row top-10 md:top-24 left-1/4 transform -translate-y-0 -translate-x-1/4 bottom-0 w-auto h-96 filter-none'>
                   <div className='w-full h-full relative hover:filter-none '>
                     <p className=' hover:filter-none w-auto top-0  font-heads text-6xl text-gold font-extralight z-10 filter-none mb-3'>Celebremos juntos</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Para mi y mi familia es un honor contar contigo este día tan especial, agradezco de la manera que puedas tu compañía.</p>
                   </div>
                 </div>
-                <div className='animate-slide-left bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
+                <div className='opacity-10 md:opacity-100 animate-slide-left -bottom-10 md:bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
                   <img className='h-full grayscale'  src="/banner2izq.png" />
                 </div>
-                <div className='animate-slide-right top-16 right-0 absolute z-10 border-gold border-l-4 border-t-4 banner2derH'>
+                <div className='opacity-10 md:opacity-100 h-20 animate-slide-right top-0 md:top-16 right-0 absolute z-10 border-gold border-l-4 border-t-4 banner2derH'>
                   <img className='h-full grayscale  '  src="/banner2der.png" />
                 </div>
                 <div className='w-auto h-auto absolute bottom-1/4 left-1/2 transform -translate-x-1/2 translate-y-10  z-10 '>
