@@ -73,7 +73,7 @@ export default function Home() {
         <div className='max-w-7xl flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
-            <div className='relative max-w-7xl minH2 maxH3 w-screen flex  flex-col justify-center items-center'>
+            <div className='relative max-w-7xl minH2 minH3 w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-screen '>
                 <div className="hidden md:flex  2xl:flex-row items-center  text-base w-full h-auto xl:mt-10  justify-center">
                     {/* Left */}
