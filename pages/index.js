@@ -97,8 +97,8 @@ export default function Home() {
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos</p>
                   </div>
                 </div>
-                <div className='opacity-10 md:opacity-100 animate-slide-left -bottom-10 md:bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
-                  <img className='h-full grayscale'  src="/banner2izq.png" />
+                <div className=' animate-slide-left -bottom-0 md:bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
+                  <img className='h-40 grayscale '  src="/banner2izq.png" />
                 </div>
                 <div className='opacity-10 md:opacity-100 h-20 animate-slide-right top-0 md:top-16 right-0 absolute z-10 border-gold border-l-4 border-t-4 banner2derH'>
                   <img className='h-full grayscale  '  src="/banner2der.png" />
