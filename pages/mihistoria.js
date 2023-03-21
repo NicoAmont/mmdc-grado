@@ -63,7 +63,7 @@ export default function Home() {
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr flex justify-center'>
-            <div className=' max-w-7xl min-w-fit py-10 md:py-0 minH w-screen flex  flex-col justify-center items-center'>
+            <div className=' max-w-7xl min-w-fit py-4  md:py-0 minH2 w-screen flex flex-col justify-center items-center'>
               <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle md:relative '>
                 <div className='overflow-hidden w-full h-auto top-0 left-1/3 transform -translate-x-1/2 hidden md:flex absolute'>
                       <img className='h-screen grayscale maxH mr-10'  src="/mih_banner2izq.png" />
@@ -139,12 +139,15 @@ export default function Home() {
           {/**quinto banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center items-center'>
             <div className=' max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
-              <div className='w-full h-full flex flex-col md:flex-row justify-center items-center'>   
+              <div className='w-full h-full flex flex-col md:flex-row justify-center items-center gap-6'>   
                 <div className='w-auto h-auto max-w-xl'>
-                  <p className='font-heads text-4xl text-gold'>Gracias por acompañarme en una aventura mas</p>
-                  <p>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. </p>
+                  <p className='font-heads text-6xl text-gold max-w-lg'>Gracias por acompañarme en una aventura mas</p>
+                  <p className=' max-w-lg  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. </p>
                 </div>
-                <img className='mr-2 grayscale'  src="/lastm.png" />
+                <div className='w-auto h-auto relative'>
+                  <h1 className='font-heads text-bgr2 text-3xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20'>MMDC</h1>
+                  <img className='mr-2 grayscale scale-90'  src="/lastm.png" />
+                </div>
               </div>
             </div>
           </div>
