@@ -1540,9 +1540,9 @@ export default function Home() {
         {/**tercer banner **/}
         <div className='linea z-0  top-40 left-1/4 transform -translate-y-1/4 w-3/3 max-w-2xl '></div> 
         <div className='w-auto h-auto minH2 bg-bgr flex justify-center'>
-          <div className=' max-w-7xl  h-auto w-screen flex  flex-col justify-center items-center'>
-            <div className={`w-11/12 flex  flex-col justify-center items-center relative`}>
-              <div className='animate-slide-left bottom-0 left-0 absolute z-10 flex  flex-col justify-center items-center'>
+          <div className=' max-w-7xl h-auto w-screen flex flex-col justify-center items-center'>
+            <div className={`w-11/12 flex flex-col justify-center items-center relative`}>
+              <div className='animate-slide-left bottom-0 left-0 absolute z-10 flex flex-col justify-center items-center'>
                   <img className='h-full grayscale'  src="/endbannerizq.png" />
                   <p className='font-heads text-gold text-3xl mt-3'>Grenoble École de Management</p>
                   <Link  href="/mihistoria" passHref>
@@ -1551,7 +1551,7 @@ export default function Home() {
                     </div>
                   </Link>
               </div>
-              <div className='animate-slide-right bottom-0 right-40 absolute z-10 flex  flex-col justify-center items-center'>
+              <div className='animate-slide-right md:bottom-0 top-10 md:right-40 absolute z-10 flex  flex-col justify-center items-center'>
                   <img className='h-full grayscale'  src="/endbannerder.png" />
                   <p className='font-heads text-gold text-3xl mt-3'>Mi historia</p>
                   <Link  href="/mihistoria" passHref>
