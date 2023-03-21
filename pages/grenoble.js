@@ -72,7 +72,7 @@ export default function Home() {
                   <div className='w-full h-full flex flex-col-reverse xl:flex-row justify-center align-middle items-center hover:filter-none '>
                     <img className=' grayscale maxH  scale-75'  src="/4b.png" />
                     <div className='flex flex-col'>
-                        <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>GEM es muy famosa para su enseñanza en: "Negocios, Finanzas, Marketing y Management de Tecnologias".
+                        <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>GEM es muy famosa para su enseñanza en: &quot;Negocios, Finanzas, Marketing y Management de Tecnologias&quot;.
     Esta escuela tiene las 3 acreditaciones más importantes de valorización académica: EQUIS,1​ AACSB2​ y AMBA.</p>
                         <p className='ml-2 sm:ml-0 hover:filter-none border-gold border-l-2 pl-2 max-w-md top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Creada en 1984 por la Cámara de Comercio e Industria de Grenoble CCI, su primer nombre fue la escuela superior de negocios de Grenoble.</p>
                     </div>
