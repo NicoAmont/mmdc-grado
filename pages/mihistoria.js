@@ -138,17 +138,41 @@ export default function Home() {
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
           {/**quinto banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center items-center'>
-            <div className=' max-w-7xl minH maxH w-screen flex  flex-col justify-center items-center'>
-              <div className='w-full h-full flex flex-col md:flex-row justify-center items-center gap-6'>   
+            <div className=' max-w-7xl minH2 min-w-fit maxH w-screen flex  flex-col justify-center items-center'>
+              <div className='w-11/12 h-full flex flex-col md:flex-row justify-center items-center gap-6'>   
                 <div className='w-auto h-auto max-w-xl'>
-                  <p className='font-heads text-6xl text-gold max-w-lg'>Gracias por acompañarme en una aventura mas</p>
+                  <p className='font-heads text-5xl md:text-6xl text-gold max-w-lg'>Gracias por acompañarme en una aventura mas</p>
                   <p className=' max-w-lg  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. </p>
                 </div>
-                <div className='w-auto h-auto relative'>
+                <div className='w-40 md:w-auto h-auto relative '>
                   <h1 className='font-heads text-bgr2 text-3xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20'>MMDC</h1>
-                  <img className='mr-2 grayscale scale-90'  src="/lastm.png" />
+                  <img className='mr-2 grayscale md:scale-90'  src="/lastm.png" />
                 </div>
               </div>
+              <div className=" flex relative z-20 2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-center">
+                    {/* Left */}
+                    <Link  href="/" passHref>
+                      <div className="grid place-content-start  ml-3">
+                          <svg width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="20" cy="20" r="20" fill="#94856F"/>
+                              <circle cx="68" cy="34" r="11" fill="#94856F"/>
+                              <circle cx="107" cy="34" r="6" fill="#94856F"/>
+                              <path d="M10 16.0005L19.732 11.1345C19.8152 11.0929 19.907 11.0713 20 11.0713C20.093 11.0713 20.1848 11.0929 20.268 11.1345L30 16.0005M28 19.0005V27.0005C28 27.5309 27.7893 28.0396 27.4142 28.4147C27.0391 28.7898 26.5304 29.0005 26 29.0005H14C13.4696 29.0005 12.9609 28.7898 12.5858 28.4147C12.2107 28.0396 12 27.5309 12 27.0005V19.0005" stroke="#CCCCCC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </div>
+                    </Link>
+                    {/* Rigth */}
+                    <Link  href="/mihistoria" passHref>
+                      <div className="grid place-content-start z-20  mr-3">
+                        <svg width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="11" cy="11" r="11" transform="matrix(-1 0 0 1 56 23)" fill="#94856F"/>
+                          <circle cx="6" cy="6" r="6" transform="matrix(-1 0 0 1 12 28)" fill="#94856F"/>
+                          <circle cx="20" cy="20" r="20" transform="matrix(-1 0 0 1 113 0)" fill="#94856F"/>
+                          <path d="M93.768 31.128C89.7787 31.128 86.824 29.9973 84.904 27.736C84.2213 26.9253 83.6667 25.848 83.24 24.504C82.8133 23.16 82.6 21.528 82.6 19.608C82.6 17.688 82.9093 15.9707 83.528 14.456C84.168 12.92 85.032 11.736 86.12 10.904C88.232 9.34667 90.7813 8.568 93.768 8.568C94.728 8.568 95.6667 8.64267 96.584 8.792C97.5013 8.92 98.184 9.05867 98.632 9.208L99.304 9.432L99.208 9.752C97.544 9.176 95.7307 8.888 93.768 8.888C91.5067 8.888 89.6187 9.624 88.104 11.096C86.952 12.184 86.1413 13.784 85.672 15.896C85.3947 17.0907 85.256 18.552 85.256 20.28C85.256 22.008 85.5013 23.608 85.992 25.08C86.4827 26.5307 87.0373 27.608 87.656 28.312C88.296 29.016 89.064 29.5813 89.96 30.008C90.856 30.4133 91.5707 30.648 92.104 30.712C92.6373 30.776 93.2667 30.808 93.992 30.808C94.7387 30.808 95.7307 30.7227 96.968 30.552V23.96H93.096V23.64H101V23.96H99.624V30.264C98.0027 30.84 96.0507 31.128 93.768 31.128Z" fill="#D9D9D9"/>
+                        </svg>
+                      </div>
+                    </Link>
+                </div>
             </div>
           </div>
       </div>
