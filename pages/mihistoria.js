@@ -62,12 +62,12 @@ export default function Home() {
       </div>
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
-          <div className='w-auto h-auto  bg-bgr flex justify-center'>
+          <div className='w-auto h-auto  bg-bgr flex justify-center mb-10'>
             <div className='mt-10 max-w-7xl minH md:maxH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle '>
                 
-                  <img className=' md:w-auto md:h-screen grayscale md:maxH md:mr-10  md:flex'  src="/mih_banner2izq.png" />
-                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 ml-2'>
+                  <img className='absolute md:w-auto md:h-screen grayscale md:maxH md:mr-10  md:flex left-0 w-1/2 opacity-30 md:opacity-100'  src="/mih_banner2izq.png" />
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 md:ml-40'>
                   <div className='w-full h-full  hover:filter-none mt-10'>
                     <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
