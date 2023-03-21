@@ -1533,25 +1533,25 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='linea z-0  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 rotate-90 '></div>  
+        <div className='linea z-0  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:w-80 linefinalw rotate-90 '></div>  
       </div>
         
       <div className='max-w-7xl bg-bgr'>
         {/**tercer banner **/}
-        <div className='linea z-0  top-40 left-1/4 transform -translate-y-1/4 w-3/3 max-w-2xl '></div> 
+        <div className='linea z-0  top-40 left-0 md:left-1/4 transform -translate-y-1/4 w-3/3 max-w-7xl sm:max-w-2xl'></div> 
         <div className='w-auto h-auto minH2 bg-bgr flex justify-center'>
           <div className=' max-w-7xl h-auto w-screen flex flex-col justify-center items-center'>
             <div className={`w-11/12 flex flex-col justify-center items-center relative`}>
-              <div className='animate-slide-left bottom-0 left-0 absolute z-10 flex flex-col justify-center items-center'>
+              <div className='animate-slide-left -bottom-96 md:bottom-0  left-0 absolute z-10 flex flex-col justify-center items-center'>
                   <img className='h-full grayscale'  src="/endbannerizq.png" />
-                  <p className='font-heads text-gold text-3xl mt-3'>Grenoble École de Management</p>
+                  <p className='font-heads text-gold text-2xl mt-3'>Grenoble École de Management</p>
                   <Link  href="/mihistoria" passHref>
                     <div className="flex justify-center">
                         <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
                     </div>
                   </Link>
               </div>
-              <div className='animate-slide-right md:bottom-0 top-10 md:right-40 absolute z-10 flex  flex-col justify-center items-center'>
+              <div className='animate-slide-right bottom-0 md:right-40 absolute z-10 flex  flex-col justify-center items-center bg-bgr'>
                   <img className='h-full grayscale'  src="/endbannerder.png" />
                   <p className='font-heads text-gold text-3xl mt-3'>Mi historia</p>
                   <Link  href="/mihistoria" passHref>
