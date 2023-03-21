@@ -63,7 +63,7 @@ export default function Home() {
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr flex justify-center'>
-            <div className=' max-w-7xl py-10 md:py-0 maxH w-screen flex  flex-col justify-center items-center'>
+            <div className=' max-w-7xl py-10 md:py-0 minH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle md:relative '>
                 
               <div className='overflow-hidden w-full h-auto top-0 left-1/3 transform -translate-x-1/2 hidden md:flex absolute'>
@@ -87,9 +87,9 @@ export default function Home() {
           </div>
       </div>
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
-          {/**primer banner **/}
+          {/**tercer banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
-            <div className=' max-w-7xl minH maxH w-screen flex  flex-col '>
+            <div className=' max-w-7xl minH minH w-screen flex  flex-col '>
               <div className=' h-auto md:h-screen flex  flex-row justify-between relative '>
                 
                 <div className='h-auto z-10 hover:filter-none mb-10 flex flex-col align-middle justify-center w-auto filter-none md:mr-40 ml-4'>
@@ -113,9 +113,9 @@ export default function Home() {
           </div>
       </div>
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
-          {/**segundo banner **/}
+          {/**cuarto banner **/}
           <div className='w-auto h-auto py-6 bg-bgr flex justify-center'>
-            <div className=' max-w-7xl py-10 md:py-0 xl:maxH w-screen flex  flex-col justify-center items-center'>
+            <div className=' max-w-7xl py-10 md:py-0 maxH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12  h-auto md:h-screen flex flex-col md:flex-col justify-center items-center align-middle md:relative '>
                 
               
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
       </div>
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
-          {/**primer banner **/}
+          {/**quinto banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
             <div className=' max-w-7xl minH maxH w-screen flex  flex-col '>
               <div className=''>   
