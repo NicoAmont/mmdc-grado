@@ -94,6 +94,7 @@ export default function Home() {
                     <p className=' hover:filter-none w-auto top-0  font-heads text-6xl text-gold font-extralight z-10 filter-none mb-3'>Celebremos juntos</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Para mi y mi familia es un honor contar contigo este día tan especial, agradezco de la manera que puedas tu compañía.</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body text-lg text-bgr font-extralight t z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos</p>
                   </div>
                 </div>
                 <div className='opacity-10 md:opacity-100 animate-slide-left -bottom-10 md:bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
@@ -103,7 +104,7 @@ export default function Home() {
                   <img className='h-full grayscale  '  src="/banner2der.png" />
                 </div>
                 <div className='w-auto h-auto absolute bottom-1/4 left-1/2 transform -translate-x-1/2 translate-y-10  z-10 '>
-                  <p className=' hover:filter-none w-auto max-w-md top-0 -left-48 font-body text-lg text-bgr font-extralight  z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos.</p>
+                  <p className='hidden md:flex hover:filter-none w-auto max-w-md top-0 -left-48 font-body text-lg text-bgr font-extralight  z-10 filter-none '>Te invito a revisar todas las secciones de este sitio, y vivamos esta experiencia juntos.</p>
                 </div>
                 <div className='w-11/12 h-auto absolute top-2/3 left-1/2 transform -translate-x-1/2'>
                   <div className=" flex  2xl:flex-row items-center  text-base w-full h-16 mt-20 justify-end">
@@ -116,12 +117,12 @@ export default function Home() {
                     
                   </div>
                 </div>
-                <div className='lineaD z-0  top-1/3 left-0 mt-40 w-full  '></div>
+                <div className='hidden md:flex lineaD z-0  top-1/3 left-0 mt-40 w-full  '></div>
               </div>
             </div>
           </div>
-          <div className='linea z-0 absolute top-0 left-0 transform -translate-x-1/2 w-2/3 max-w-xl rotate-90 '></div>
-          <div className='linea z-0 absolute top-0  left-0 transform translate-x-1/2  mt-10 w-2/3 max-w-2xl rotate-90 '></div>
+          <div className='hidden md:flex linea z-0 absolute top-0 left-0 transform -translate-x-1/2 w-2/3 max-w-xl rotate-90 '></div>
+          <div className='hidden md:flex linea z-0 absolute top-0  left-0 transform translate-x-1/2  mt-10 w-2/3 max-w-2xl rotate-90 '></div>
         </div>
       </div>
       <div className='max-w-7xl bg-bgr'>
@@ -132,7 +133,7 @@ export default function Home() {
              {/**tarjeta participacion **/}
               <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2    hover:filter-none flex flex-row  w-3/4 maxtw h-3/4  filter-none ${showDiv1 ? "opacity-100 z-10" : "opacity-0 z-0"} transition-all duration-1000 ease-linear`}>
                 <div className='w-full h-full relative hover:filter-none'>
-                  <svg className='h-full w-full absolute  bg-bgr3 border-gold border-2' viewBox="0 0 696 696" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className='h-full md:w-full absolute transform -translate-x-20 md:-translate-x-0 bg-bgr3 border-gold border-2' viewBox="0 0 696 696" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M46.4543 0H52.6277C50.5216 1.0585 48.3611 2.0445 46.4761 3.48C46.4725 2.32 46.4688 1.16 46.4543 0Z" fill="#94856F"/>
                   <path d="M134.473 0H136.576C130.721 4.47325 125.646 9.87812 121.14 15.689C122.256 13.2548 127.852 5.72424 134.857 0.141375L134.473 0Z" fill="#94856F"/>
                   <path d="M175.932 0H178.966C164.124 6.87699 156.991 15.56 154.494 17.4834C159.215 10.6155 168.026 4.04623 175.932 0Z" fill="#94856F"/>
@@ -972,9 +973,9 @@ export default function Home() {
                 </div>
               </div>
               {/**tarjeta detalle **/}
-              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-bgr3 border-gold border-2  hover:filter-none flex flex-row  w-3/4 maxtw h-3/4  filter-none ${showDiv1 ? "opacity-0 z-0" : "opacity-100 z-10"} transition-all duration-1000 ease-linear`}>
+              <div className= {`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  hover:filter-none flex flex-row  w-3/4 maxtw h-3/4  filter-none ${showDiv1 ? "opacity-0 z-0" : "opacity-100 z-10"} transition-all duration-1000 ease-linear`}>
                 <div className='w-full h-full relative hover:filter-none '>
-                  <svg className='h-full w-full absolute left-1'  viewBox="0 0 704 704" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg className='h-full md:w-full absolute transform -translate-x-20 md:-translate-x-0 left-1 bg-bgr3 border-gold border-2'  viewBox="0 0 704 704" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g opacity="0.04" filter="url(#filter0_di_256_1431)">
                       <path d="M47.4543 0H53.6277C51.5216 1.0585 49.3611 2.0445 47.4761 3.48C47.4725 2.32 47.4688 1.16 47.4543 0Z" fill="#94856F"/>
                       <path d="M135.473 0H137.576C131.721 4.47325 126.646 9.87812 122.14 15.689C123.256 13.2548 128.852 5.72424 135.857 0.141375L135.473 0Z" fill="#94856F"/>
