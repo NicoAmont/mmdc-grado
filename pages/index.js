@@ -25,7 +25,7 @@ export default function Home() {
         <div className='w-auto h-auto bg-bgr flex justify-center'>
           <div className='relative max-w-7xl maxH w-screen flex  flex-col justify-center items-center'>
             <div className='w-11/12 h-screen'>
-              <div className="bg-bgr flex  2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-between">
+              <div className="bg-bgr flex  2xl:flex-row items-center  text-base w-full h-16 mt-6 md:mt-8 justify-between">
                   {/* Left */}
                   <Link  href="/" passHref>
                     <div className="grid place-content-start  ml-3">
@@ -48,17 +48,17 @@ export default function Home() {
                 <div className='w-full h-full relative hover:filter-none '>
                 <p className='absolute hover:filter-none w-96 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest -rotate-90 z-10 filter-none '>María Mónica Díez Cruz</p>
                 </div>
-                <img className='transform -translate-y-36 scale-90 filter-none  '  src="/fotobanner1.png"/>
+                <img className='transform md:-translate-y-36 -translate-y-20 scale-90 filter-none  '  src="/fotobanner1.png"/>
               </div>
-              <div className='animate-slide-left top-1/3 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
+              <div className='hidden md:flex animate-slide-left top-1/3 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
                 <img className='h-full grayscale'  src="/izqbanner.png" />
               </div>
-              <div className='animate-slide-right top-1/4 right-0 absolute z-10 border-gold border-l-4 border-t-4'>
+              <div className='hidden md:flex animate-slide-right top-1/4 right-0 absolute z-10 border-gold border-l-4 border-t-4'>
                 <img className='h-full grayscale  '  src="/derbanner.png" />
               </div>
-              <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-36 translate-y-28  z-10 '>
+              <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-32 md:translate-x-36  md:translate-y-28 translate-y-32  z-10 '>
                 <p className=' hover:filter-none w-28 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Participación</p>
-                <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-6xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
+                <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-5xl md:text-6xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
                 <p className=' hover:filter-none w-96 top-0 -left-48 font-heads ml-1 text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Msc moda, diseño y gestión de lujo</p>
               </div>
               <div className='linea z-0  top-1/3 left-1/2 w-1/2'></div>
