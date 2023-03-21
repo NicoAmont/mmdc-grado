@@ -32,6 +32,9 @@ input[type=number]::-webkit-outer-spin-button {
 .maxH{
   max-height: 800px;
 }
+.maxH3{
+  max-height: 850px;
+}
 .maxtw{
   max-width: 704px;
   min-height: 704px;
