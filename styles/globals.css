@@ -47,7 +47,7 @@ input[type=number]::-webkit-outer-spin-button {
   height: 175px;
 }
 .minH2{
-  min-height: 850px;
+  min-height: 800px;
 }
 
 @media (min-width: 360px){    
@@ -55,12 +55,12 @@ input[type=number]::-webkit-outer-spin-button {
     max-height: 800px;
   }
 }
-@media (max-width:400px ){    
+@media (max-width:500px ){    
   .minH3{
     min-height: 850px;
   }
   .minH4{
-    min-height: 910px;
+    min-height: 850px;
   }
 }
 .grayscale {

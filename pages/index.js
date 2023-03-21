@@ -56,7 +56,7 @@ export default function Home() {
               <div className='hidden md:flex animate-slide-right top-1/4 right-0 absolute z-10 border-gold border-l-4 border-t-4'>
                 <img className='h-full grayscale  '  src="/derbanner.png" />
               </div>
-              <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-32 md:translate-x-36  md:translate-y-28 translate-y-32  z-10 '>
+              <div className='w-auto h-auto absolute bottom-1/4 right-1/4 transform translate-x-32 md:translate-x-36  md:translate-y-28 translate-y-48  z-10 '>
                 <p className=' hover:filter-none w-28 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Participación</p>
                 <p className=' hover:filter-none w-96 top-0 -left-48 font-heads text-6xl md:text-6xl text-gold font-extralight tracking-widest  z-10 filter-none '>Graduación</p>
                 <p className=' hover:filter-none w-96 top-0 -left-48 font-heads ml-1 text-lg text-bgr2 font-extralight tracking-widest  z-10 filter-none '>Msc moda, diseño y gestión de lujo</p>
