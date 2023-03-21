@@ -162,7 +162,7 @@ export default function Home() {
                       </div>
                     </Link>
                     {/* Rigth */}
-                    <Link  href="/mihistoria" passHref>
+                    <Link  href="/grenoble" passHref>
                       <div className="grid place-content-start z-20  mr-3">
                         <svg width="113" height="45" viewBox="0 0 113 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <circle cx="11" cy="11" r="11" transform="matrix(-1 0 0 1 56 23)" fill="#94856F"/>

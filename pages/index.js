@@ -98,7 +98,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className=' animate-slide-left -bottom-0 md:bottom-20 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
-                  <img className='h-40 grayscale '  src="/banner2izq.png" />
+                  <img className='h-40 md:h-full  grayscale '  src="/banner2izq.png" />
                 </div>
                 <div className='opacity-10 md:opacity-100 h-20 animate-slide-right top-0 md:top-16 right-0 absolute z-10 border-gold border-l-4 border-t-4 banner2derH'>
                   <img className='h-full grayscale  '  src="/banner2der.png" />
@@ -1545,7 +1545,7 @@ export default function Home() {
               <div className='animate-slide-left -bottom-96 md:bottom-0  left-0 absolute z-10 flex flex-col justify-center items-center'>
                   <img className='h-full grayscale'  src="/endbannerizq.png" />
                   <p className='font-heads text-gold text-2xl mt-3'>Grenoble École de Management</p>
-                  <Link  href="/mihistoria" passHref>
+                  <Link  href="/grenoble" passHref>
                     <div className="flex justify-center">
                         <button className="rounded-lg bg-bgr2 py-1 px-4 shadow-2xl text-bgr font-heads font-light mt-3" onClick={mostrarDiv2}>Saber mas ...</button>
                     </div>
