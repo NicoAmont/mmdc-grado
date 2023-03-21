@@ -73,7 +73,7 @@ export default function Home() {
         <div className='max-w-7xl flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
-            <div className='relative max-w-7xl minH2 minH3 w-screen flex  flex-col justify-center items-center'>
+            <div className='relative max-w-7xl minH2 minH3 maxH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-screen '>
                 
                 <div className='absolute z-10 hover:filter-none flex flex-row top-10 md:top-24 left-1/4 transform -translate-y-0 -translate-x-1/4 bottom-0 w-auto h-96 filter-none'>
