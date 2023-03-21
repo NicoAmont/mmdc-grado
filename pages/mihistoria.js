@@ -82,7 +82,6 @@ export default function Home() {
                     <img className='ml-2 grayscale'  src="/gal2_2.png" />
                     <img className='mr-2 grayscale'  src="/gal2_3.png" />
                   </div>
-                
               </div>
             </div>
           </div>
@@ -109,6 +108,30 @@ export default function Home() {
                 <div className='overflow-hidden w-full h-auto top-0 left-1/3 transform translate-x-1/2 hidden md:flex absolute'>
                     <img className='h-screen grayscale maxH mr-10'  src="/mih_banner3der.png" />
                 </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
+          {/**segundo banner **/}
+          <div className='w-auto h-auto py-6 bg-bgr flex justify-center'>
+            <div className=' max-w-7xl py-10 md:py-0 xl:maxH h-auto w-screen flex  flex-col justify-center items-center'>
+              <div className='w-11/12 gap-10 h-auto md:h-auto flex flex-col md:flex-col justify-center items-center align-middle md:relative '>
+                
+              
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 md:ml-40'>
+                  <div className='w-full h-full flex flex-col xl:flex-row  justify-center align-middle items-center hover:filter-none '>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <img className=' grayscale maxH mr-10 scale-75'  src="/fam1.png" />
+                  </div>
+                </div>
+                <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 md:ml-40'>
+                  <div className='w-full h-full flex flex-col-reverse xl:flex-row justify-center align-middle items-center hover:filter-none '>
+                    <img className=' grayscale maxH mr-10 scale-75'  src="/fam2.png" />
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                  </div>
+                </div>
+                  
               </div>
             </div>
           </div>
