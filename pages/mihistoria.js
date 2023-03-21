@@ -63,7 +63,7 @@ export default function Home() {
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr flex justify-center'>
-            <div className=' max-w-7xl py-10 md:py-0 md:maxH w-screen flex  flex-col justify-center items-center'>
+            <div className=' max-w-7xl py-10 md:py-0 maxH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle md:relative '>
                 
               <div className='overflow-hidden w-full h-auto top-0 left-1/3 transform -translate-x-1/2 hidden md:flex absolute'>
@@ -132,6 +132,18 @@ export default function Home() {
                   </div>
                 </div>
                   
+              </div>
+            </div>
+          </div>
+      </div>
+      <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
+          {/**primer banner **/}
+          <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
+            <div className=' max-w-7xl minH maxH w-screen flex  flex-col '>
+              <div className=''>   
+                <p>Gracias por acompañarme en una aventura mas</p>
+                <p>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. </p>
+                <img className='mr-2 grayscale'  src="/lastm.png" />
               </div>
             </div>
           </div>
