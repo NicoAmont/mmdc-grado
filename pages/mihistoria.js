@@ -154,7 +154,7 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
                       <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb2 font-light t z-10 filter-none mt-4'>!Merci¡</p>
                       <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb3 font-light t z-10 filter-none mt-4'>!Thanks¡</p>
                     </div>
-                  <img className='w-20 mt-6 '  src="/labios.png" />
+                  <img className='w-20 mt-6 ml-10'  src="/labios.png" />
                   </div>
                 </div>
                 <div className='w-40 md:w-auto h-auto relative '>
