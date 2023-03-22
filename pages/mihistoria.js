@@ -144,16 +144,18 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
           <div className='w-auto h-auto  bg-bgr2 flex justify-center items-center'>
             <div className=' max-w-7xl minH2 min-w-fit maxHh w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-full flex flex-col md:flex-row justify-center items-center gap-6 ml-2'>   
-                <div className='w-auto h-auto max-w-xl flex flex-col justify-center items-center'>
+                <div className='w-auto h-auto max-w-xl flex flex-col justify-center '>
                   <p className='font-heads text-5xl md:text-6xl my-10 text-gold max-w-lg'>Gracias por acompañarme en una aventura más</p>
-                  <p className=' max-w-lg  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Más que agradecer a mis padres y mi hermano, también agradecer a mis abuelos maternos y paternos. </p>
+                  <p className=' max-w-md  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Más que agradecer a mis padres y mi hermano, también agradecer a mis abuelos maternos y paternos. </p>
                   <p className=' max-w-md  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>... a la memoria de mis queridos tíos Alex Manuel Cruz Pacheco y Héctor Hinestroza Palacios</p>
-                  <div className='flex max-w-sm gap-6'>
-                  <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb1 font-light t z-10 filter-none mt-4'>!Gracias¡</p>
-                  <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb2 font-light t z-10 filter-none mt-4'>!Merci¡</p>
-                  <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb3 font-light t z-10 filter-none mt-4'>!Thanks¡</p>
+                  <div className=' flex flex-col md:flex-row justify-center items-center align-middle '>
+                    <div className='flex  max-w-sm gap-6'>
+                      <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb1 font-light t z-10 filter-none mt-4'>!Gracias¡</p>
+                      <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb2 font-light t z-10 filter-none mt-4'>!Merci¡</p>
+                      <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb3 font-light t z-10 filter-none mt-4'>!Thanks¡</p>
+                    </div>
+                  <img className='w-20 mt-6 '  src="/labios.png" />
                   </div>
-                  <img className='w-20 mt-6'  src="/labios.png" />
                 </div>
                 <div className='w-40 md:w-auto h-auto relative '>
                   <h1 className='font-heads text-bgr2 text-3xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20'>MMDC</h1>
@@ -162,7 +164,7 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
                   <img className='mr-2 grayscale md:scale-90'  src="/lastm.png" />
                 </div>
               </div>
-              <div className=" flex relative z-20 2xl:flex-row items-center  text-base w-full h-16 mt-8 justify-center">
+              <div className=" flex relative z-20 2xl:flex-row items-center mb-10 text-base w-full h-16 mt-8 justify-center">
                     {/* Left */}
                     <Link  href="/" passHref>
                       <div className="grid place-content-start  ml-3">
