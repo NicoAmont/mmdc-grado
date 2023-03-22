@@ -115,7 +115,7 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**cuarto banner **/}
           <div className='w-auto h-auto py-6 bg-bgr flex justify-center'>
-            <div className=' max-w-7xl py-10 md:py-0 maxH w-screen flex  flex-col justify-center items-center'>
+            <div className=' max-w-7xl py-10 md:py-0 maxHh w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12  h-auto md:h-screen flex flex-col md:flex-col justify-center items-center align-middle md:relative '>
                 
               
@@ -142,16 +142,16 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
           {/**quinto banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center items-center'>
-            <div className=' max-w-7xl minH2 min-w-fit maxH w-screen flex  flex-col justify-center items-center'>
+            <div className=' max-w-7xl minH2 min-w-fit maxHh w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-full flex flex-col md:flex-row justify-center items-center gap-6 ml-2'>   
                 <div className='w-auto h-auto max-w-xl flex flex-col justify-center items-center'>
-                  <p className='font-heads text-5xl md:text-6xl text-gold max-w-lg'>Gracias por acompañarme en una aventura más</p>
+                  <p className='font-heads text-5xl md:text-6xl my-10 text-gold max-w-lg'>Gracias por acompañarme en una aventura más</p>
                   <p className=' max-w-lg  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Más que agradecer a mis padres y mi hermano, también agradecer a mis abuelos maternos y paternos. </p>
                   <p className=' max-w-md  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>... a la memoria de mis queridos tíos Alex Manuel Cruz Pacheco y Héctor Hinestroza Palacios</p>
                   <div className='flex max-w-sm gap-6'>
-                  <p className=' max-w-lg  font-body md:text-2xl colorlb1 font-light t z-10 filter-none mt-4'>!Gracias¡</p>
-                  <p className=' max-w-lg  font-body md:text-2xl colorlb2 font-light t z-10 filter-none mt-4'>!Merci¡</p>
-                  <p className=' max-w-lg  font-body md:text-2xl colorlb3 font-light t z-10 filter-none mt-4'>!Thanks¡</p>
+                  <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb1 font-light t z-10 filter-none mt-4'>!Gracias¡</p>
+                  <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb2 font-light t z-10 filter-none mt-4'>!Merci¡</p>
+                  <p className=' max-w-lg  font-body text-xl md:text-2xl colorlb3 font-light t z-10 filter-none mt-4'>!Thanks¡</p>
                   </div>
                   <img className='w-20 mt-6'  src="/labios.png" />
                 </div>
