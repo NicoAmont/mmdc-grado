@@ -32,6 +32,9 @@ input[type=number]::-webkit-outer-spin-button {
 .maxH{
   max-height: 800px;
 }
+.maxHh{
+  max-height: 800px;
+}
 .minH3{
   min-height: 700px;
 }
@@ -61,6 +64,9 @@ input[type=number]::-webkit-outer-spin-button {
   }
   .minH4{
     min-height: 850px;
+  }
+  .maxHh{
+    max-height: 100%;
   }
 }
 .grayscale {
@@ -201,4 +207,16 @@ input[type=number]::-webkit-outer-spin-button {
 ::-webkit-scrollbar-track {
   background-color: #9d9494;
   border-radius: 3px;
+}
+.color2{
+  color:rgba(216, 193, 153, 0.827);
+}
+.colorlb1{
+  color:#CC1414;
+}
+.colorlb2{
+  color:#A2774D;
+}
+.colorlb3{
+  color:#C6621E;
 }

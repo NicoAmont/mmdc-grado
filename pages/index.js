@@ -1473,7 +1473,7 @@ export default function Home() {
                   </svg>
                   <div className='tarjetaw absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
                     <div className='w-full h-full relative'>
-                        <div className='w-auto h-auto text-gold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row items-center'>
+                        <div className='w-auto h-auto color2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row items-center'>
                           
                           <div className='flex flex-col items-center w-full'>
                               <p className='font-heads text-3xl mb-10'>MMDC</p> 
@@ -1483,7 +1483,7 @@ export default function Home() {
                                 <div className='flex flex-col items-center py-2'>
                                   <p className='font-heads font-extralight text-2xl w-max '>Abril</p>
                                   <p className='font-heads font-extralight text-5xl w-max '>I</p>
-                                  <p className='font-heads font-extralight text-2xl w-max '>2022</p>
+                                  <p className='font-heads font-extralight text-2xl w-max '>2023</p>
                                 </div>
                                 <p className='font-heads font-extralight text-2xl w-max '>9:00 am</p>
                               </div>

@@ -41,7 +41,7 @@ export default function Home() {
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 ml-2'>
                   <div className='w-full h-full  hover:filter-none mt-10'>
                     <p className=' hover:filter-none top-0  font-heads text-5xl md:text-6xl text-gold font-extralight z-10 filter-none mb-3'>Mi historia</p>
-                    <p className=' hover:filter-none max-w-2xl top-0  font-body md:text-lg text-bgr font-extralight t z-10 filter-none '>Nací en Bogotá un 15 de diciembre de 1997 con sangre caribeña y del pacífico, y porque no decirlo italiana, por mi tatarabuelo Giuseppe Morelli oriundo de la comuna Morano Calabro, provincia de Cosenza región de Calabria. Estudié Administración de Negocios Internacionales en la Universidad de La Sabana y realicé varios cursos como Adventurous Thinking, Operations Management and Supply Chain, International Fashion Business, entre otros. Ahora, después de una busqueda exhaustiva decidí relizar la Maestría en Moda, Diseño y Gestión de Lujo del cual me gradúo el 1 de abril de 2023 en Grenoble a la que están cordialmente invitades.</p>
+                    <p className=' hover:filter-none max-w-2xl top-0  font-body md:text-lg text-bgr font-extralight t z-10 filter-none '>Nací en Bogotá un 15 de diciembre de 1997 con sangre caribeña y del pacífico, y porque no decirlo italiana, por mi tatarabuelo Giuseppe Morelli oriundo de la comuna Morano Calabro, provincia de Cosenza región de Calabria. Estudié Administración de Negocios Internacionales en la Universidad de La Sabana y realicé varios cursos como Adventurous Thinking, Operations Management and Supply Chain, International Fashion Business, entre otros. Después de una busqueda exhaustiva, decidí continuar mis estudios con la Maestría en Moda, Diseño y Gestión de Lujo del cual me gradúo el 1 de abril de 2023 en Grenoble, a la que están cordialmente invitades.</p>
                   </div>
                     <div className='mt-10 gap-2 flex flex-row  h-full overflow-x-scroll overflow-y-hidden '>
                       <img className=' grayscale'  src="/collage1_1.png" />
@@ -63,17 +63,17 @@ export default function Home() {
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr flex justify-center'>
-            <div className=' max-w-7xl min-w-fit py-4  md:py-0 minH2 w-screen flex flex-col justify-center items-center'>
+            <div className=' max-w-7xl min-w-fit py-4  md:py-0 minH2 maxHh w-screen flex flex-col justify-center items-center'>
               <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle md:relative '>
                 <div className='overflow-hidden w-full h-auto top-0 left-1/3 transform -translate-x-1/2 hidden md:flex absolute'>
                       <img className='h-screen grayscale maxH mr-10'  src="/mih_banner2izq.png" />
                 </div>
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none md:mr-40 md:ml-40 ml-2 '>
                   <div className='w-full h-full  hover:filter-none  flex flex-col gap-6'>
-                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Inicié mis prácticas en L&apos;Oréal Colombia donde en diciembre de 2018 hasta mayo 2019, donde fuí Practicante de Marketing Cosmética Activa y de junio a diciembre de 2019 fuí Practicante de Marketing y Retail Maybelline.</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Inicié mis prácticas en L&apos;Oréal Colombia en diciembre de 2018 hasta mayo 2019, donde fuí Practicante de Marketing Cosmética Activa y de junio a diciembre de 2019 fuí Practicante de Marketing y Retail Maybelline.</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Durante el periodo de mis estudios en Grenoble fuí promocionada por la Grenoble Ecole de Management como Aprendiz en Women DIOR - Programa Internacional de Mentoría y Educación - Christian Dior Couture, Edición 2021.</p>
-                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tuve la fortuna de realizar mis practicas de la maestría nuevamente en L&apos;Oréal París por Dios Parísssss, donde fue Asistente de Gerente de Proyectos Maquillaje, Eje de labios Lancôme, DMI, julio a diciembre de 2021.</p>
-                      <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>En este pudé asistir el desarrollo de conceptos de marketing internacional, a los gerentes de marketing en todas las tareas operativas y colaborar con los equipos internos y externos para alcanzar los objetivos de la marca, definir conceptos de productos con selección de tonos y propuestas de activación, informar y analizar la inteligencia de los competidores, las tendencias del mercado y las innovaciones de productos, ayudar a conceptualizar la estrategia de marketing internacional de 360 grados, además de traquear y analizar el rendimiento de WW de venta mensual en el eje labios y rostro.</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tuve la fortuna de realizar mis practicas de la maestría nuevamente en L&apos;Oréal París por !!Por Dios, París¡¡, donde me desempeñé como la asistente de la Gerente de Proyectos Maquillaje, Eje de labios Lancôme, DMI, julio a diciembre de 2021.</p>
+                      <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Durante esta etapa apoyé el desarrollo de conceptos de marketing internacional, a los gerentes de marketing en todas las tareas operativas y colaboré con los equipos internos y externos para alcanzar los objetivos de la marca, definir conceptos de productos con selección de tonos y propuestas de activación, informar y analizar la inteligencia de los competidores, las tendencias del mercado y las innovaciones de productos, ayudar a conceptualizar la estrategia de marketing internacional de 360 grados, además de traquear y analizar el rendimiento de WW de venta mensual, en el eje labios y rostro.</p>
                   </div>
                 </div>
                 <div className='mt-10 gap-10 flex flex-row  h-full overflow-x-scroll overflow-y-hidden md:flex-col w-auto md:justify-center md:items-center md:align-middle '>
@@ -88,12 +88,12 @@ export default function Home() {
       <div className='w-screen bg-bgr2 flex flex-col justify-center items-center align-middle'>
           {/**tercer banner **/}
           <div className='w-auto h-auto  bg-bgr2 flex justify-center'>
-            <div className=' max-w-7xl h-auto w-screen flex  flex-col '>
+            <div className=' max-w-7xl h-auto w-screen minH2 flex  flex-col '>
               <div className=' h-auto md:h-screen flex  flex-row justify-between relative '>
                 
                 <div className='h-auto z-10 hover:filter-none mb-10 flex flex-col align-middle justify-center w-auto filter-none md:mr-40 ml-6'>
                   <div className='w-full h-auto  hover:filter-none mt-10 '>
-                    <p className=' hover:filter-none max-w-4xl top-0 font-body md:text-lg text-bgr font-extralight t z-10 filter-none '>Gracias a todo mi esfuerzo y dedicación y el apoyo de mi familia y amiges, logré desde enero de 2022 ser la International Marketing Manager PRADA Beauty (Gerente de Marketing Internacional PRADA Belleza). En donde hoy día soy responsable del desarrollo, la gestión y el lanzamiento de toda la categoría Labios y las colecciones de PRADA Beauty.</p>
+                    <p className=' hover:filter-none max-w-4xl top-0 font-body md:text-lg text-bgr font-extralight t z-10 filter-none '>Gracias a todo mi esfuerzo, dedicación y el apoyo de mi familia y amiges, logré desde enero de 2022 ser la International Marketing Manager PRADA Beauty (Gerente de Marketing Internacional PRADA Belleza). En donde hoy día soy responsable del desarrollo, la gestión y el lanzamiento de toda la categoría Labios y las colecciones de PRADA Beauty.</p>
                   </div>
                     <div className='gap-2 flex flex-row mt-10 max-w-4xl h-auto overflow-x-scroll overflow-y-hidden '>
                       <img className=' grayscale'  src="/banner3_!.png" />
@@ -121,14 +121,17 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
               
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none '>
                   <div className='w-full h-full flex flex-col xl:flex-row  justify-center align-middle items-center hover:filter-none '>
-                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Recuerda Nena cuando nos enseñaron el significado de la suerte, no era ganarse la lotería decía el Coach en el colegio de Nicolás, era sencillamente el punto donde se cruzan las capacidades y los conocimientos. Y estos han ido creciendo desde que ingresaste al colegio, luego en la universidad, las prácticas en L'Oréal en Bogotá y París (tu sueño), tu maestría en Grenoble y desde luego ahora en PRADA Beauty, que sumados a tu gran personalidad te han llevado al éxito y a la felicidad.</p>
                     <img className=' grayscale maxH  scale-75'  src="/fam1.png" />
                   </div>
                 </div>
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none'>
                   <div className='w-full h-full flex flex-col-reverse xl:flex-row justify-center align-middle items-center hover:filter-none '>
                     <img className=' grayscale maxH  scale-75'  src="/fam2.png" />
-                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Tomé la decisión de continuar mis estudios y preparación a través de un Master con el sentimiento de dejar a mi familia pero al mismo tiempo con la intención de forjar un futuro promisorio que al día de hoy pienso con el corazón que valió la pena. Cada esfuerzo, cada sacrificio, cada trasnochada, conllevó a lograr mi sueño.</p>
+                    <div className='flex flex-col'>
+                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Aprovechamos para bendecirte, felicitarte y desearte lo mejor, eres una hija excepcional que merece todo y mucho más!</p>
+                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Gracias a Dios y a la vida por mi hermosa familia, quienes me han dedicado todo su tiempo y amor con paciencia, enriquecido cada uno de mis pasos, siempre conté con ellos para finalmente tomar mis decisiones. Su apoyo me fortalece cada día, los amo por estar a pesar de la distancia siempre a mi lado, gracias gracias.</p>
+                    </div>
                   </div>
                 </div>
                   
@@ -141,12 +144,21 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
           <div className='w-auto h-auto  bg-bgr2 flex justify-center items-center'>
             <div className=' max-w-7xl minH2 min-w-fit maxH w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12 h-full flex flex-col md:flex-row justify-center items-center gap-6 ml-2'>   
-                <div className='w-auto h-auto max-w-xl'>
-                  <p className='font-heads text-5xl md:text-6xl text-gold max-w-lg'>Gracias por acompañarme en una aventura mas</p>
-                  <p className=' max-w-lg  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Más que agradecer a mis padres y mi hermano, también agradecer a mis abuelos maternos y paternos y un especial agradecimiento a la memoria de mi querido tío Hector Hinestroza. </p>
+                <div className='w-auto h-auto max-w-xl flex flex-col justify-center items-center'>
+                  <p className='font-heads text-5xl md:text-6xl text-gold max-w-lg'>Gracias por acompañarme en una aventura más</p>
+                  <p className=' max-w-lg  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>Más que agradecer a mis padres y mi hermano, también agradecer a mis abuelos maternos y paternos. </p>
+                  <p className=' max-w-md  font-body md:text-lg text-bgr3 font-extralight t z-10 filter-none mt-4'>... a la memoria de mis queridos tíos Alex Manuel Cruz Pacheco y Héctor Hinestroza Palacios</p>
+                  <div className='flex max-w-sm gap-6'>
+                  <p className=' max-w-lg  font-body md:text-2xl colorlb1 font-light t z-10 filter-none mt-4'>!Gracias¡</p>
+                  <p className=' max-w-lg  font-body md:text-2xl colorlb2 font-light t z-10 filter-none mt-4'>!Merci¡</p>
+                  <p className=' max-w-lg  font-body md:text-2xl colorlb3 font-light t z-10 filter-none mt-4'>!Thanks¡</p>
+                  </div>
+                  <img className='w-20 mt-6'  src="/labios.png" />
                 </div>
                 <div className='w-40 md:w-auto h-auto relative '>
                   <h1 className='font-heads text-bgr2 text-3xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20'>MMDC</h1>
+                  
+                  
                   <img className='mr-2 grayscale md:scale-90'  src="/lastm.png" />
                 </div>
               </div>
