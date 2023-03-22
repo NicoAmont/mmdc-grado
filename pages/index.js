@@ -46,9 +46,9 @@ export default function Home() {
               </div>
               <div className='absolute z-10 hover:filter-none flex flex-row items-baseline top-1/2 left-1/3 transform -translate-y-1/2 -translate-x-20 bottom-0 w-auto h-96 filter-none'>
                 <div className='w-full h-full relative hover:filter-none '>
-                <p className='absolute hover:filter-none w-96 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest -rotate-90 z-10 filter-none '>María Mónica Díez Cruz</p>
+                  <p className='absolute z-20 hover:filter-none w-96 top-0 -left-48 font-body text-lg text-bgr2 font-extralight tracking-widest -rotate-90  filter-none '>María Mónica Díez Cruz</p>
                 </div>
-                <img className='transform md:-translate-y-36 -translate-y-20 scale-90 filter-none  '  src="/fotobanner1.png"/>
+                <img className=' grayscale transform md:-translate-y-36 -translate-y-20 scale-90 filter-none  '  src="/fotobanner1.png"/>
               </div>
               <div className='hidden md:flex animate-slide-left top-1/3 left-0 absolute z-10 border-gold border-r-4 border-t-4'>
                 <img className='h-full grayscale'  src="/izqbanner.png" />
