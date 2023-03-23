@@ -63,7 +63,7 @@ export default function Home() {
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**segundo banner **/}
           <div className='w-auto h-auto  bg-bgr flex justify-center'>
-            <div className=' max-w-7xl min-w-fit py-4  md:py-0 minH2 maxHh w-screen flex flex-col justify-center items-center'>
+            <div className=' max-w-7xl min-w-fit py-10  md:py-0 minH2 maxHh w-screen flex flex-col justify-center items-center'>
               <div className='w-11/12 h-auto md:h-screen flex flex-col md:flex-row justify-center items-center align-middle md:relative '>
                 <div className='overflow-hidden w-full h-auto top-0 left-1/3 transform -translate-x-1/2 hidden md:flex absolute'>
                       <img className='h-screen grayscale maxH mr-10'  src="/mih_banner2izq.png" />
@@ -72,8 +72,8 @@ export default function Home() {
                   <div className='w-full h-full  hover:filter-none  flex flex-col gap-6'>
                     <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Inicié mis prácticas en L&apos;Oréal Colombia en diciembre de 2018 hasta mayo 2019, donde fuí Practicante de Marketing Cosmética Activa y de junio a diciembre de 2019 fuí Practicante de Marketing y Retail Maybelline.</p>
                     <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Durante el periodo de mis estudios en Grenoble fuí promocionada por la Grenoble Ecole de Management como Aprendiz en Women DIOR - Programa Internacional de Mentoría y Educación - Christian Dior Couture, Edición 2021.</p>
-                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tuve la fortuna de realizar mis practicas de la maestría nuevamente en L&apos;Oréal París por !!Por Dios, París¡¡, donde me desempeñé como la asistente de la Gerente de Proyectos Maquillaje, Eje de labios Lancôme, DMI, julio a diciembre de 2021.</p>
-                      <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Durante esta etapa apoyé el desarrollo de conceptos de marketing internacional, a los gerentes de marketing en todas las tareas operativas y colaboré con los equipos internos y externos para alcanzar los objetivos de la marca, definir conceptos de productos con selección de tonos y propuestas de activación, informar y analizar la inteligencia de los competidores, las tendencias del mercado y las innovaciones de productos, ayudar a conceptualizar la estrategia de marketing internacional de 360 grados, además de traquear y analizar el rendimiento de WW de venta mensual, en el eje labios y rostro.</p>
+                    <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Tuve la fortuna de realizar mis practicas de la maestría nuevamente en L&apos;Oréal París por !!Por Dios, París¡¡, donde me desempeñé como asistente de la Gerencia de Maquillaje,en la dirección de Marketing Internacional (DMI) del eje de labios de la marca Lancôme. De julio a Diciembre de 2021.</p>
+                      <p className=' hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Durante esta etapa apoyé el desarrollo de conceptos de marketing internacional, a los gerentes de marketing en todas las tareas operativas y colaboré con los equipos internos y externos para alcanzar los objetivos de la marca, definir conceptos de productos con selección de tonos y propuestas de activación, informar y analizar el comportamiento de los competidores, las tendencias del mercado y las innovaciones de productos, ayudar a conceptualizar la estrategia de marketing internacional de 360 grados, además de traquear y analizar el rendimiento mundial de de ventas mensuales, en el eje labios y rostro.</p>
                   </div>
                 </div>
                 <div className='mt-10 gap-10 flex flex-row  h-full overflow-x-scroll overflow-y-hidden md:flex-col w-auto md:justify-center md:items-center md:align-middle '>
@@ -114,23 +114,29 @@ Además me enfrento a retos como la creación del lanzamiento internacional 360�
       </div>
       <div className='w-screen bg-bgr flex flex-col justify-center items-center align-middle'>
           {/**cuarto banner **/}
-          <div className='w-auto h-auto py-6 bg-bgr flex justify-center'>
-            <div className=' max-w-7xl py-10 md:py-0 maxHh w-screen flex  flex-col justify-center items-center'>
+          <div className='w-auto h-auto py-8 bg-bgr flex justify-center'>
+            <div className=' max-w-7xl  md:py-0 maxHh w-screen flex  flex-col justify-center items-center'>
               <div className='w-11/12  h-auto md:h-screen flex flex-col md:flex-col justify-center items-center align-middle md:relative '>
                 
               
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none '>
                   <div className='w-full h-full flex flex-col xl:flex-row  justify-center align-middle items-center hover:filter-none '>
-                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Recuerda Nena cuando nos enseñaron el significado de la suerte, no era ganarse la lotería decía el Coach en el colegio de Nicolás, era sencillamente el punto donde se cruzan las capacidades y los conocimientos. Y estos han ido creciendo desde que ingresaste al colegio, luego en la universidad, las prácticas en L&apos;Oréal en Bogotá y París (tu sueño), tu maestría en Grenoble y desde luego ahora en PRADA Beauty, que sumados a tu gran personalidad te han llevado al éxito y a la felicidad.</p>
+                    <div className='flex flex-col gap-3'>  
+                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-titles text-3xl md:text-4xl text-gold font-extralight t z-10 filter-none '>Recuerda nena ...</p>
+                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight t z-10 filter-none '>Recuerda cuando nos enseñaron el significado de la suerte, no era ganarse la lotería decía el Coach en el colegio de Nicolás, era sencillamente el punto donde se cruzan las capacidades y los conocimientos. Y estos han ido creciendo desde que ingresaste al colegio, luego en la universidad, las prácticas en L&apos;Oréal en Bogotá y París (tu sueño), tu maestría en Grenoble y desde luego ahora en PRADA Beauty, que sumados a tu gran personalidad te han llevado al éxito y a la felicidad.</p>
+                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Aprovechamos para bendecirte, felicitarte y desearte lo mejor, eres una hija excepcional que merece todo y mucho más!</p>
+                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-titles md:text-xl text-gold font-extralight t z-10 filter-none '>-Con mucho amor, tus padres-</p>
+                    </div>
                     <img className=' grayscale maxH  scale-75'  src="/fam1.png" />
                   </div>
                 </div>
                 <div className='h-auto z-10 hover:filter-none flex flex-col w-auto filter-none'>
                   <div className='w-full h-full flex flex-col-reverse xl:flex-row justify-center align-middle items-center hover:filter-none '>
                     <img className=' grayscale maxH  scale-75'  src="/fam2.png" />
-                    <div className='flex flex-col'>
-                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Aprovechamos para bendecirte, felicitarte y desearte lo mejor, eres una hija excepcional que merece todo y mucho más!</p>
-                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Gracias a Dios y a la vida por mi hermosa familia, quienes me han dedicado todo su tiempo y amor con paciencia, enriquecido cada uno de mis pasos, siempre conté con ellos para finalmente tomar mis decisiones. Su apoyo me fortalece cada día, los amo por estar a pesar de la distancia siempre a mi lado, gracias gracias.</p>
+                    <div className='flex flex-col gap-3'>
+                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-Xl top-0  font-titles text-3xl md:text-4xl text-gold font-extralight t z-10 filter-none '>Gracias a Dios y a la vida ...</p>
+                    <p className='ml-2 sm:ml-0 hover:filter-none max-w-lg top-0  font-body md:text-lg text-bgr2 font-extralight  z-10 filter-none '>Gracias por mi hermosa familia, quienes me han dedicado todo su tiempo y amor con paciencia, enriquecido cada uno de mis pasos, siempre conté con ellos para finalmente tomar mis decisiones. Su apoyo me fortalece cada día, los amo por estar a pesar de la distancia siempre a mi lado, gracias gracias.</p>
+                    <p className='ml-2 sm:ml-0  hover:filter-none max-w-lg top-0  font-titles md:text-xl text-gold font-extralight t z-10 filter-none '>-María Mónica Díez Cruz-</p>
                     </div>
                   </div>
                 </div>

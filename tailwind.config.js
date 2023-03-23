@@ -57,7 +57,9 @@ module.exports = {
     },
     fontFamily: {
       heads:['Italiana'],
-      body:['Nunito']
+      body:['Nunito'],
+      titles:['Dancing Script']
+
     },
     
   },
